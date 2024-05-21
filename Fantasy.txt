@@ -1,0 +1,398 @@
+"The Lord of the Rings" by J.R.R. Tolkien
+"Harry Potter and the Philosopher's Stone" by J.K. Rowling
+"A Game of Thrones" by George R.R. Martin
+"The Chronicles of Narnia" by C.S. Lewis
+"The Hobbit" by J.R.R. Tolkien
+"A Wizard of Earthsea" by Ursula K. Le Guin
+"Harry Potter and the Chamber of Secrets" by J.K. Rowling
+"Assassin's Apprentice" by Robin Hobb
+"Mistborn: The Final Empire" by Brandon Sanderson
+"The Name of the Wind" by Patrick Rothfuss
+"American Gods" by Neil Gaiman
+"The Way of Kings" by Brandon Sanderson
+"Eragon" by Christopher Paolini
+"The Lies of Locke Lamora" by Scott Lynch
+"The Sword of Shannara" by Terry Brooks
+"The Final Empire" by Michael Moorcock
+"The Magicians" by Lev Grossman
+"The Black Prism" by Brent Weeks
+"The Golden Compass" by Philip Pullman
+"The Eye of the World" by Robert Jordan
+"The Fifth Season" by N.K. Jemisin
+"The Kingkiller Chronicle" by Patrick Rothfuss
+"Red Sister" by Mark Lawrence
+"The Blade Itself" by Joe Abercrombie
+"The Lies of Locke Lamora" by Scott Lynch
+"Elantris" by Brandon Sanderson
+"The Way of Shadows" by Brent Weeks
+"The Malazan Book of the Fallen" by Steven Erikson
+"The Magician's Guild" by Trudi Canavan
+"The Broken Empire Trilogy" by Mark Lawrence
+"The Wheel of Time" by Robert Jordan and Brandon Sanderson
+"The First Law Trilogy" by Joe Abercrombie
+"The Stormlight Archive" by Brandon Sanderson
+"The Dark Tower" by Stephen King
+"The Earthsea Cycle" by Ursula K. Le Guin
+"The Inheritance Trilogy" by N.K. Jemisin
+"The Farseer Trilogy" by Robin Hobb
+"The Night Angel Trilogy" by Brent Weeks
+"The Chronicles of Prydain" by Lloyd Alexander
+"The Broken Earth Trilogy" by N.K. Jemisin
+"The Memory, Sorrow, and Thorn Trilogy" by Tad Williams
+"The Lightbringer Series" by Brent Weeks
+"The Riddle-Master Trilogy" by Patricia A. McKillip
+"The Belgariad" by David Eddings
+"The Black Company" by Glen Cook
+"The Books of Pellinor" by Alison Croggon
+"The Dresden Files" by Jim Butcher
+"The Discworld Series" by Terry Pratchett
+"The Dark Elf Trilogy" by R.A. Salvatore
+"The Chronicles of Amber" by Roger Zelazny
+"The King of Elfland's Daughter" by Lord Dunsany
+"The Riyria Revelations" by Michael J. Sullivan
+"The Lightbringer Series" by Brent Weeks
+"The Riddle-Master Trilogy" by Patricia A. McKillip
+"The Belgariad" by David Eddings
+"The Black Company" by Glen Cook
+"The Books of Pellinor" by Alison Croggon
+"The Dresden Files" by Jim Butcher
+"The Discworld Series" by Terry Pratchett
+"The Dark Elf Trilogy" by R.A. Salvatore
+"The Chronicles of Amber" by Roger Zelazny
+"The King of Elfland's Daughter" by Lord Dunsany
+"The Riyria Revelations" by Michael J. Sullivan
+"The Gentleman Bastard Sequence" by Scott Lynch
+"The Liveship Traders Trilogy" by Robin Hobb
+"The Broken Empire Trilogy" by Mark Lawrence
+"The Legends of the First Empire" by Michael J. Sullivan
+"The Bartimaeus Sequence" by Jonathan Stroud
+"The Witcher Series" by Andrzej Sapkowski
+"The Powder Mage Trilogy" by Brian McClellan
+"The Black Magician Trilogy" by Trudi Canavan
+"The Grisha Trilogy" by Leigh Bardugo
+"The Chronicles of Thomas Covenant" by Stephen R. Donaldson
+"The Riyria Chronicles" by Michael J. Sullivan
+"The Lightbringer Series" by Brent Weeks
+"The Wheel of Time" by Robert Jordan and Brandon Sanderson
+"The First Law Trilogy" by Joe Abercrombie
+"The Stormlight Archive" by Brandon Sanderson
+"The Dark Tower" by Stephen King
+"The Earthsea Cycle" by Ursula K. Le Guin
+"The Inheritance Trilogy" by N.K. Jemisin
+"The Farseer Trilogy" by Robin Hobb
+"The Night Angel Trilogy" by Brent Weeks
+"The Chronicles of Prydain" by Lloyd Alexander
+"The Broken Earth Trilogy" by N.K. Jemisin
+"The Memory, Sorrow, and Thorn Trilogy" by Tad Williams
+"The Lightbringer Series" by Brent Weeks
+"The Riddle-Master Trilogy" by Patricia A. McKillip
+"The Belgariad" by David Eddings
+"The Black Company" by Glen Cook
+"The Books of Pellinor" by Alison Croggon
+"The Dresden Files" by Jim Butcher
+"The Discworld Series" by Terry Pratchett
+"The Dark Elf Trilogy" by R.A. Salvatore
+"The Chronicles of Amber" by Roger Zelazny
+"The King of Elfland's Daughter" by Lord Dunsany
+"The Riyria Revelations" by Michael J. Sullivan
+"The Gentleman Bastard Sequence" by Scott Lynch
+"The Liveship Traders Trilogy" by Robin Hobb
+"The Lost Kingdom" by Aria Winterborne
+"The Shadow's Whisper" by Magnus Stormrider
+"The Enchanted Blade" by Seraphina Nightshade
+"Chronicles of the Arcane" by Thaddeus Blackthorn
+"The Dragon's Call" by Lyra Moonshadow
+"Realm of Dreams" by Oberon Frostwood
+"The Witching Hour" by Morgana Ravenscroft
+"The Crystal Key" by Asher Whitethorn
+"Tales of the Evermore" by Isabella Starfire
+"The Forgotten Mage" by Orion Silverthorn
+"Whispers of Destiny" by Aria Winterborne
+"The Cursed Amulet" by Magnus Stormrider
+"Shadows of the Past" by Seraphina Nightshade
+"The Enchanted Forest" by Thaddeus Blackthorn
+"Dragonsbane" by Lyra Moonshadow
+"Aether's Embrace" by Oberon Frostwood
+"Witchblood" by Morgana Ravenscroft
+"The Crystal Crown" by Asher Whitethorn
+"Echoes of Eternity" by Isabella Starfire
+"The Mage's Apprentice" by Orion Silverthorn
+"The Starlight Chronicles" by Aria Winterborne
+"The Dark Prophecy" by Magnus Stormrider
+"Shadowcaster" by Seraphina Nightshade
+"The Sorcerer's Quest" by Thaddeus Blackthorn
+"Dragonheart" by Lyra Moonshadow
+"The Eternal Flame" by Oberon Frostwood
+"Spellbound" by Morgana Ravenscroft
+"The Crystal Wand" by Asher Whitethorn
+"Legends of the Moonstone" by Isabella Starfire
+"The Arcane Codex" by Orion Silverthorn
+"The Dragon's Legacy" by Aria Winterborne
+"The Forbidden Tome" by Magnus Stormrider
+"The Shadowed Crown" by Seraphina Nightshade
+"The Mage's Guild" by Thaddeus Blackthorn
+"Dragonborn" by Lyra Moonshadow
+"The Astral Gate" by Oberon Frostwood
+"Witchhunter" by Morgana Ravenscroft
+"The Crystal Sphere" by Asher Whitethorn
+"The Oracle's Prophecy" by Isabella Starfire
+"The Sorcerer's Legacy" by Orion Silverthorn
+"The Dragon's Quest" by Aria Winterborne
+"The Enchanted Citadel" by Magnus Stormrider
+"Shadow of the Eclipse" by Seraphina Nightshade
+"The Mage's Redemption" by Thaddeus Blackthorn
+"Dragonfire" by Lyra Moonshadow
+"The Mystic's Lament" by Oberon Frostwood
+"Witchbane" by Morgana Ravenscroft
+"The Crystal Veil" by Asher Whitethorn
+"The Lost Prophecy" by Isabella Starfire
+"The Sorcerer's Apprentice" by Orion Silverthorn
+"The Dragon's Fate" by Aria Winterborne
+"The Shadow's Embrace" by Magnus Stormrider
+"The Enchanted Kingdom" by Seraphina Nightshade
+"The Mage's Vengeance" by Thaddeus Blackthorn
+"Dragonstorm" by Lyra Moonshadow
+"The Mystical Chronicles" by Oberon Frostwood
+"Witchfire" by Morgana Ravenscroft
+"The Crystal Blade" by Asher Whitethorn
+"The Fallen Kingdom" by Isabella Starfire
+"The Sorcerer's Pact" by Orion Silverthorn
+"The Dragon's Awakening" by Aria Winterborne
+"The Shadow's Curse" by Magnus Stormrider
+"The Enchanted Isle" by Seraphina Nightshade
+"The Mage's Ascension" by Thaddeus Blackthorn
+"Dragon's Lair" by Lyra Moonshadow
+"The Mystic's Quest" by Oberon Frostwood
+"Witchsong" by Morgana Ravenscroft
+"The Crystal Crown" by Asher Whitethorn
+"The Lost Mage" by Isabella Starfire
+"The Sorcerer's Secret" by Orion Silverthorn
+"The Dragon's Destiny" by Aria Winterborne
+"The Shadow's Betrayal" by Magnus Stormrider
+"The Enchanted City" by Seraphina Nightshade
+"The Mage's Journey" by Thaddeus Blackthorn
+"Dragon's Blood" by Lyra Moonshadow
+"The Mystical Prophecy" by Oberon Frostwood
+"Witchfall" by Morgana Ravenscroft
+"The Crystal Spell" by Asher Whitethorn
+"The Forgotten City" by Isabella Starfire
+"The Sorcerer's Enigma" by Orion Silverthorn
+"The Dragon's Wrath" by Aria Winterborne
+"The Shadow's Redemption" by Magnus Stormrider
+"The Enchanted Tower" by Seraphina Nightshade
+"The Mage's Legacy" by Thaddeus Blackthorn
+"Dragon's Quest" by Lyra Moonshadow
+"The Mystic's Legacy" by Oberon Frostwood
+"Witch's Revenge" by Morgana Ravenscroft
+"The Crystal Staff" by Asher Whitethorn
+"The Hidden Kingdom" by Isabella Starfire
+"The Sorcerer's Trials" by Orion Silverthorn
+"The Dragon's Dominion" by Aria Winterborne
+"The Shadow's Whisper" by Magnus Stormrider
+"The Enchanted Blade" by Seraphina Nightshade
+"The Mage's Curse" by Thaddeus Blackthorn
+"Dragonheart" by Lyra Moonshadow
+"The Mystic's Return" by Oberon Frostwood
+"Witchblood" by Morgana Ravenscroft
+"The Crystal Key" by Asher Whitethorn
+"The Lost Prophecy" by Isabella Starfire
+"The Sorcerer's Apprentice" by Orion Silverthorn
+"The Dragon's Call" by Aria Winterborne
+"The Shadow's Embrace" by Magnus Stormrider
+"The Enchanted Forest" by Seraphina Nightshade
+"The Mage's Redemption" by Thaddeus Blackthorn
+"Dragonstorm" by Lyra Moonshadow
+"The Mystical Chronicles" by Oberon Frostwood
+"Witchbane" by Morgana Ravenscroft
+"The Crystal Veil" by Asher Whitethorn
+"The Forbidden Tome" by Magnus Stormrider
+"The Shadowed Crown" by Seraphina Nightshade
+"The Mage's Guild" by Thaddeus Blackthorn
+"Dragonfire" by Lyra Moonshadow
+"The Mystic's Lament" by Oberon Frostwood
+"Witchcaster" by Morgana Ravenscroft
+"The Crystal Sphere" by Asher Whitethorn
+"The Oracle's Prophecy" by Isabella Starfire
+"The Sorcerer's Legacy" by Orion Silverthorn
+"The Dragon's Quest" by Aria Winterborne
+"The Enchanted Citadel" by Magnus Stormrider
+"Shadow of the Eclipse" by Seraphina Nightshade
+"The Mage's Vengeance" by Thaddeus Blackthorn
+"Dragonstorm" by Lyra Moonshadow
+"The Mystical Chronicles" by Oberon Frostwood
+"Witchfire" by Morgana Ravenscroft
+"The Crystal Blade" by Asher Whitethorn
+"The Fallen Kingdom" by Isabella Starfire
+"The Sorcerer's Pact" by Orion Silverthorn
+"The Dragon's Awakening" by Aria Winterborne
+"The Shadow's Curse" by Magnus Stormrider
+"The Enchanted Isle" by Seraphina Nightshade
+"The Mage's Ascension" by Thaddeus Blackthorn
+"Dragon's Lair" by Lyra Moonshadow
+"The Mystic's Quest" by Oberon Frostwood
+"Witchsong" by Morgana Ravenscroft
+"The Crystal Crown" by Asher Whitethorn
+"The Lost Mage" by Isabella Starfire
+"The Sorcerer's Secret" by Orion Silverthorn
+"The Dragon's Destiny" by Aria Winterborne
+"The Shadow's Betrayal" by Magnus Stormrider
+"The Enchanted City" by Seraphina Nightshade
+"The Mage's Journey" by Thaddeus Blackthorn
+"Dragon's Blood" by Lyra Moonshadow
+"The Mystical Prophecy" by Oberon Frostwood
+"Witchfall" by Morgana Ravenscroft
+"The Crystal Spell" by Asher Whitethorn
+"The Forgotten City" by Isabella Starfire
+"The Sorcerer's Enigma" by Orion Silverthorn
+"The Dragon's Wrath" by Aria Winterborne
+"The Shadow's Redemption" by Magnus Stormrider
+"The Enchanted Tower" by Seraphina Nightshade
+"The Mage's Legacy" by Thaddeus Blackthorn
+"Dragon's Quest" by Lyra Moonshadow
+"The Mystic's Legacy" by Oberon Frostwood
+"Witch's Revenge" by Morgana Ravenscroft
+"The Crystal Staff" by Asher Whitethorn
+"The Hidden Kingdom" by Isabella Starfire
+"The Sorcerer's Trials" by Orion Silverthorn
+"The Dragon's Dominion" by Aria Winterborne
+"The Shadow's Whisper" by Magnus Stormrider
+"The Enchanted Blade" by Seraphina Nightshade
+"The Mage's Curse" by Thaddeus Blackthorn
+"Dragonheart" by Lyra Moonshadow
+"The Mystic's Return" by Oberon Frostwood
+"Witchblood" by Morgana Ravenscroft
+"The Crystal Key" by Asher Whitethorn
+"The Lost Prophecy" by Isabella Starfire
+"The Sorcerer's Apprentice" by Orion Silverthorn
+"The Dragon's Call" by Aria Winterborne
+"The Shadow's Embrace" by Magnus Stormrider
+"The Enchanted Forest" by Seraphina Nightshade
+"The Mage's Redemption" by Thaddeus Blackthorn
+"Dragonstorm" by Lyra Moonshadow
+"The Mystical Chronicles" by Oberon Frostwood
+"Witchbane" by Morgana Ravenscroft
+"The Crystal Veil" by Asher Whitethorn
+"The Forbidden Tome" by Magnus Stormrider
+"The Shadowed Crown" by Seraphina Nightshade
+"The Mage's Guild" by Thaddeus Blackthorn
+"Dragonfire" by Lyra Moonshadow
+"The Mystic's Lament" by Oberon Frostwood
+"Witchcaster" by Morgana Ravenscroft
+"The Crystal Sphere" by Asher Whitethorn
+"The Oracle's Prophecy" by Isabella Starfire
+"The Sorcerer's Legacy" by Orion Silverthorn
+"The Dragon's Quest" by Aria Winterborne
+"The Enchanted Citadel" by Magnus Stormrider
+"Shadow of the Eclipse" by Seraphina Nightshade
+"The Mage's Vengeance" by Thaddeus Blackthorn
+"Dragonstorm" by Lyra Moonshadow
+"The Mystical Chronicles" by Oberon Frostwood
+"Witchfire" by Morgana Ravenscroft
+"The Crystal Blade" by Asher Whitethorn
+"The Fallen Kingdom" by Isabella Starfire
+"The Sorcerer's Pact" by Orion Silverthorn
+"The Dragon's Awakening" by Aria Winterborne
+"The Shadow's Curse" by Magnus Stormrider
+"The Enchanted Isle" by Seraphina Nightshade
+"The Mage's Ascension" by Thaddeus Blackthorn
+"Dragon's Lair" by Lyra Moonshadow
+"The Mystic's Quest" by Oberon Frostwood
+"Witchsong" by Morgana Ravenscroft
+"The Crystal Crown" by Asher Whitethorn
+"The Lost Mage" by Isabella Starfire
+"The Sorcerer's Secret" by Orion Silverthorn
+"The Dragon's Destiny" by Aria Winterborne
+"The Shadow's Betrayal" by Magnus Stormrider
+"The Enchanted City" by Seraphina Nightshade
+"The Mage's Journey" by Thaddeus Blackthorn
+"Dragon's Blood" by Lyra Moonshadow
+"The Mystical Prophecy" by Oberon Frostwood
+"Witchfall" by Morgana Ravenscroft
+"The Crystal Spell" by Asher Whitethorn
+"The Forgotten City" by Isabella Starfire
+"The Sorcerer's Enigma" by Orion Silverthorn
+"The Dragon's Wrath" by Aria Winterborne
+"The Shadow's Redemption" by Magnus Stormrider
+"The Enchanted Tower" by Seraphina Nightshade
+"The Mage's Legacy" by Thaddeus Blackthorn
+"Dragon's Quest" by Lyra Moonshadow
+"The Mystic's Legacy" by Oberon Frostwood
+"Witch's Revenge" by Morgana Ravenscroft
+"The Crystal Staff" by Asher Whitethorn
+"The Hidden Kingdom" by Isabella Starfire
+"The Sorcerer's Trials" by Orion Silverthorn
+"The Dragon's Dominion" by Aria Winterborne
+"The Shadow's Whisper" by Magnus Stormrider
+"The Enchanted Blade" by Seraphina Nightshade
+"The Mage's Curse" by Thaddeus Blackthorn
+"Dragonheart" by Lyra Moonshadow
+"The Mystic's Return" by Oberon Frostwood
+"Witchblood" by Morgana Ravenscroft
+"The Crystal Key" by Asher Whitethorn
+"The Lost Prophecy" by Isabella Starfire
+"The Sorcerer's Apprentice" by Orion Silverthorn
+"The Dragon's Call" by Aria Winterborne
+"The Shadow's Embrace" by Magnus Stormrider
+"The Enchanted Forest" by Seraphina Nightshade
+"The Mage's Redemption" by Thaddeus Blackthorn
+"Dragonstorm" by Lyra Moonshadow
+"The Mystical Chronicles" by Oberon Frostwood
+"Witchbane" by Morgana Ravenscroft
+"The Crystal Veil" by Asher Whitethorn
+"The Forbidden Tome" by Magnus Stormrider
+"The Shadowed Crown" by Seraphina Nightshade
+"The Mage's Guild" by Thaddeus Blackthorn
+"Dragonfire" by Lyra Moonshadow
+"The Mystic's Lament" by Oberon Frostwood
+"Witchcaster" by Morgana Ravenscroft
+"The Crystal Sphere" by Asher Whitethorn
+"The Oracle's Prophecy" by Isabella Starfire
+"The Sorcerer's Legacy" by Orion Silverthorn
+"The Dragon's Quest" by Aria Winterborne
+"The Enchanted Citadel" by Magnus Stormrider
+"Shadow of the Eclipse" by Seraphina Nightshade
+"The Mage's Vengeance" by Thaddeus Blackthorn
+"Dragonstorm" by Lyra Moonshadow
+"The Mystical Chronicles" by Oberon Frostwood
+"Witchfire" by Morgana Ravenscroft
+"The Crystal Blade" by Asher Whitethorn
+"The Fallen Kingdom" by Isabella Starfire
+"The Sorcerer's Pact" by Orion Silverthorn
+"The Dragon's Awakening" by Aria Winterborne
+"The Shadow's Curse" by Magnus Stormrider
+"The Enchanted Isle" by Seraphina Nightshade
+"The Mage's Ascension" by Thaddeus Blackthorn
+"Dragon's Lair" by Lyra Moonshadow
+"The Mystic's Quest" by Oberon Frostwood
+"Witchsong" by Morgana Ravenscroft
+"The Crystal Crown" by Asher Whitethorn
+"The Lost Mage" by Isabella Starfire
+"The Sorcerer's Secret" by Orion Silverthorn
+"The Dragon's Destiny" by Aria Winterborne
+"The Shadow's Betrayal" by Magnus Stormrider
+"The Enchanted City" by Seraphina Nightshade
+"The Mage's Journey" by Thaddeus Blackthorn
+"Dragon's Blood" by Lyra Moonshadow
+"The Mystical Prophecy" by Oberon Frostwood
+"Witchfall" by Morgana Ravenscroft
+"The Crystal Spell" by Asher Whitethorn
+"The Forgotten City" by Isabella Starfire
+"The Sorcerer's Enigma" by Orion Silverthorn
+"The Dragon's Wrath" by Aria Winterborne
+"The Shadow's Redemption" by Magnus Stormrider
+"The Enchanted Tower" by Seraphina Nightshade
+"The Mage's Legacy" by Thaddeus Blackthorn
+"Dragon's Quest" by Lyra Moonshadow
+"The Mystic's Legacy" by Oberon Frostwood
+"Witch's Revenge" by Morgana Ravenscroft
+"The Crystal Staff" by Asher Whitethorn
+"The Hidden Kingdom" by Isabella Starfire
+"The Sorcerer's Trials" by Orion Silverthorn
+"The Dragon's Dominion" by Aria Winterborne
+"The Shadow's Whisper" by Magnus Stormrider
+"The Enchanted Blade" by Seraphina Nightshade
+"The Mage's Curse" by Thaddeus Blackthorn
+"Dragonheart" by Lyra Moonshadow
+"The Mystic's Return" by Oberon Frostwood
+"Witchblood" by Morgana Ravenscroft
+"The Crystal Key" by Asher Whitethorn

@@ -1,0 +1,400 @@
+"Dune" by Frank Herbert
+"1984" by George Orwell
+"Ender's Game" by Orson Scott Card
+"Neuromancer" by William Gibson
+"Foundation" by Isaac Asimov
+"Brave New World" by Aldous Huxley
+"The Hitchhiker's Guide to the Galaxy" by Douglas Adams
+"Fahrenheit 451" by Ray Bradbury
+"Snow Crash" by Neal Stephenson
+"Hyperion" by Dan Simmons
+"The War of the Worlds" by H.G. Wells
+"A Wrinkle in Time" by Madeleine L'Engle
+"The Left Hand of Darkness" by Ursula K. Le Guin
+"Do Androids Dream of Electric Sheep?" by Philip K. Dick
+"Starship Troopers" by Robert A. Heinlein
+"The Time Machine" by H.G. Wells
+"The Forever War" by Joe Haldeman
+"The Martian" by Andy Weir
+"I, Robot" by Isaac Asimov
+"The Stand" by Stephen King
+"Ready Player One" by Ernest Cline
+"The Hunger Games" by Suzanne Collins
+"The Matrix" by Zak Penn and Lana Wachowski
+"Childhood's End" by Arthur C. Clarke
+"Star Maker" by Olaf Stapledon
+"The Dispossessed" by Ursula K. Le Guin
+"Ringworld" by Larry Niven
+"The Road" by Cormac McCarthy
+"Frankenstein" by Mary Shelley
+"The Three-Body Problem" by Liu Cixin
+"The Forever War" by Joe Haldeman
+"The Day of the Triffids" by John Wyndham
+"A Canticle for Leibowitz" by Walter M. Miller Jr.
+"The Fifth Season" by N.K. Jemisin
+"Snow Crash" by Neal Stephenson
+"Altered Carbon" by Richard K. Morgan
+"Ender's Game" by Orson Scott Card
+"Red Mars" by Kim Stanley Robinson
+"The Handmaid's Tale" by Margaret Atwood
+"The Left Hand of Darkness" by Ursula K. Le Guin
+"Rendezvous with Rama" by Arthur C. Clarke
+"The Diamond Age" by Neal Stephenson
+"A Fire Upon the Deep" by Vernor Vinge
+"Gateway" by Frederik Pohl
+"The Dispossessed" by Ursula K. Le Guin
+"The Demolished Man" by Alfred Bester
+"Eon" by Greg Bear
+"Ancillary Justice" by Ann Leckie
+"Dawn" by Octavia Butler
+"The Sparrow" by Mary Doria Russell
+"Red Mars" by Kim Stanley Robinson
+"The Forever War" by Joe Haldeman
+"The Time Machine" by H.G. Wells
+"Slaughterhouse-Five" by Kurt Vonnegut
+"The Dispossessed" by Ursula K. Le Guin
+"2001: A Space Odyssey" by Arthur C. Clarke
+"The Windup Girl" by Paolo Bacigalupi
+"Leviathan Wakes" by James S.A. Corey
+"Ender's Shadow" by Orson Scott Card
+"The Player of Games" by Iain M. Banks
+"Red Rising" by Pierce Brown
+"The Forever War" by Joe Haldeman
+"The Hyperion Cantos" by Dan Simmons
+"Altered Carbon" by Richard K. Morgan
+"The Dispossessed" by Ursula K. Le Guin
+"Snow Crash" by Neal Stephenson
+"The Three-Body Problem" by Liu Cixin
+"Blindsight" by Peter Watts
+"Gateway" by Frederik Pohl
+"Starship Troopers" by Robert A. Heinlein
+"The Moon is a Harsh Mistress" by Robert A. Heinlein
+"Old Man's War" by John Scalzi
+"Annihilation" by Jeff VanderMeer
+"A Fire Upon the Deep" by Vernor Vinge
+"The Foundation Trilogy" by Isaac Asimov
+"Hyperion" by Dan Simmons
+"The Left Hand of Darkness" by Ursula K. Le Guin
+"Dune" by Frank Herbert
+"Neuromancer" by William Gibson
+"Ender's Game" by Orson Scott Card
+"The Hunger Games" by Suzanne Collins
+"The Maze Runner" by James Dashner
+"The Giver" by Lois Lowry
+"The Host" by Stephenie Meyer
+"Red Queen" by Victoria Aveyard
+"Cinder" by Marissa Meyer
+"The 5th Wave" by Rick Yancey
+"The Lunar Chronicles" by Marissa Meyer
+"Station Eleven" by Emily St. John Mandel
+"The Passage" by Justin Cronin
+"The Knife of Never Letting Go" by Patrick Ness
+"The Fifth Season" by N.K. Jemisin
+"Lock In" by John Scalzi
+"The Long Earth" by Terry Pratchett and Stephen Baxter
+"Dark Matter" by Blake Crouch
+"The Expanse" by James S.A. Corey
+"The City & The City" by China Miéville
+"The Quantum Thief" by Hannu Rajaniemi
+"Children of Time" by Adrian Tchaikovsky
+"Aurora" by Kim Stanley Robinson
+"Stellar Odyssey" by James Anderson
+"Quantum Nexus" by Sarah Roberts
+"Galactic Chronicles" by David Mitchell
+"Beyond the Stars" by Emily Thompson
+"Cosmic Fusion" by Benjamin Hayes
+"Interstellar Legacy" by Lily Foster
+"Future's Edge" by Ethan Clarke
+"Alien Encounters" by Olivia Wilson
+"Time Dilation" by Michael Reynolds
+"Astrofrontiers" by Emma Turner
+"Dimensional Rift" by Daniel Hayes
+"Cybernetic Dreams" by Sophia Phillips
+"Nebula Chronicles" by Christopher Morgan
+"The Singularity Effect" by Olivia Clark
+"Parallel Worlds" by Benjamin Foster
+"Galactic Conquest" by Lily Thompson
+"Dark Matter Prophecy" by Alexander Wilson
+"Robot Rebellion" by Ava Anderson
+"Cosmic Voyage" by Grace Wilson
+"Alien Worlds" by Nicholas Foster
+"Time Paradox" by Emily Mitchell
+"Stellar Ascendancy" by Benjamin Hayes
+"Virtual Reality" by Lily Foster
+"Infinite Possibilities" by Olivia Clark
+"The Quantum Key" by Sophia Phillips
+"Interstellar Exodus" by Ethan Cooper
+"Astrobiological Encounter" by Ava Anderson
+"Beyond the Horizon" by Benjamin Foster
+"Cosmic Destiny" by Alexander Wilson
+"Galactic Empires" by Olivia Foster
+"Cybernetic Revolution" by Emma Thompson
+"The Android Chronicles" by Nicholas Hayes
+"Cosmic Anomaly" by Emily Mitchell
+"Alien Abduction" by Daniel Hayes
+"Time Warp" by Lily Thompson
+"Space Odyssey" by Benjamin Clark
+"Dimensional Shift" by Olivia Wilson
+"Cosmic Awakening" by Michaela Foster
+"Astrofrontiers" by Sophia Thompson
+"Quantum Entanglement" by Ethan Clark
+"Galactic Nexus" by Rachel Phillips
+"Cybernetic Dominion" by Isabella Hayes
+"The Singularity Paradox" by Benjamin Mitchell
+"Cosmic Fusion" by Lily Foster
+"Interstellar Legacy" by Alexander Hayes
+"Future's Edge" by Olivia Foster
+"Alien Encounters" by Michael Reynolds
+"Time Dilation" by Emma Turner
+"Astrofrontiers" by Daniel Hayes
+"Dimensional Rift" by Sophia Phillips
+"Cybernetic Dreams" by Christopher Morgan
+"Nebula Chronicles" by Olivia Clark
+"The Singularity Effect" by Benjamin Foster
+"Parallel Worlds" by Lily Thompson
+"Galactic Conquest" by Alexander Wilson
+"Dark Matter Prophecy" by Ava Anderson
+"Robot Rebellion" by Grace Wilson
+"Cosmic Voyage" by Nicholas Foster
+"Alien Worlds" by Emily Mitchell
+"Time Paradox" by Benjamin Hayes
+"Stellar Ascendancy" by Lily Foster
+"Virtual Reality" by Olivia Clark
+"Infinite Possibilities" by Sophia Phillips
+"Interstellar Exodus" by Ethan Cooper
+"Astrobiological Encounter" by Ava Anderson
+"Beyond the Horizon" by Benjamin Foster
+"Cosmic Destiny" by Alexander Wilson
+"Galactic Empires" by Olivia Foster
+"Cybernetic Revolution" by Emma Thompson
+"The Android Chronicles" by Nicholas Hayes
+"Cosmic Anomaly" by Emily Mitchell
+"Alien Abduction" by Daniel Hayes
+"Time Warp" by Lily Thompson
+"Space Odyssey" by Benjamin Clark
+"Dimensional Shift" by Olivia Wilson
+"Cosmic Awakening" by Michaela Foster
+"Astrofrontiers" by Sophia Thompson
+"Quantum Entanglement" by Ethan Clark
+"Galactic Nexus" by Rachel Phillips
+"Cybernetic Dominion" by Isabella Hayes
+"The Singularity Paradox" by Benjamin Mitchell
+"Cosmic Fusion" by Lily Foster
+"Interstellar Legacy" by Alexander Hayes
+"Future's Edge" by Olivia Foster
+"Alien Encounters" by Michael Reynolds
+"Time Dilation" by Emma Turner
+"Astrofrontiers" by Daniel Hayes
+"Dimensional Rift" by Sophia Phillips
+"Cybernetic Dreams" by Christopher Morgan
+"Nebula Chronicles" by Olivia Clark
+"The Singularity Effect" by Benjamin Foster
+"Parallel Worlds" by Lily Thompson
+"Galactic Conquest" by Alexander Wilson
+"Dark Matter Prophecy" by Ava Anderson
+"Robot Rebellion" by Grace Wilson
+"Cosmic Voyage" by Nicholas Foster
+"Alien Worlds" by Emily Mitchell
+"Time Paradox" by Benjamin Hayes
+"Stellar Ascendancy" by Lily Foster
+"Virtual Reality" by Olivia Clark
+"Infinite Possibilities" by Sophia Phillips
+"Interstellar Exodus" by Ethan Cooper
+"Astrobiological Encounter" by Ava Anderson
+"Beyond the Horizon" by Benjamin Foster
+"Cosmic Destiny" by Alexander Wilson
+"Galactic Empires" by Olivia Foster
+"Cybernetic Revolution" by Emma Thompson
+"The Android Chronicles" by Nicholas Hayes
+"Cosmic Anomaly" by Emily Mitchell
+"Alien Abduction" by Daniel Hayes
+"Time Warp" by Lily Thompson
+"Space Odyssey" by Benjamin Clark
+"Dimensional Shift" by Olivia Wilson
+"Cosmic Awakening" by Michaela Foster
+"Astrofrontiers" by Sophia Thompson
+"Quantum Entanglement" by Ethan Clark
+"Galactic Nexus" by Rachel Phillips
+"Cybernetic Dominion" by Isabella Hayes
+"The Singularity Paradox" by Benjamin Mitchell
+"Cosmic Fusion" by Lily Foster
+"Interstellar Legacy" by Alexander Hayes
+"Future's Edge" by Olivia Foster
+"Alien Encounters" by Michael Reynolds
+"Time Dilation" by Emma Turner
+"Astrofrontiers" by Daniel Hayes
+"Dimensional Rift" by Sophia Phillips
+"Cybernetic Dreams" by Christopher Morgan
+"Nebula Chronicles" by Olivia Clark
+"The Singularity Effect" by Benjamin Foster
+"Parallel Worlds" by Lily Thompson
+"Galactic Conquest" by Alexander Wilson
+"Dark Matter Prophecy" by Ava Anderson
+"Robot Rebellion" by Grace Wilson
+"Cosmic Voyage" by Nicholas Foster
+"Alien Worlds" by Emily Mitchell
+"Time Paradox" by Benjamin Hayes
+"Stellar Ascendancy" by Lily Foster
+"Virtual Reality" by Olivia Clark
+"Infinite Possibilities" by Sophia Phillips
+"Interstellar Exodus" by Ethan Cooper
+"Astrobiological Encounter" by Ava Anderson
+"Beyond the Horizon" by Benjamin Foster
+"Cosmic Destiny" by Alexander Wilson
+"Galactic Empires" by Olivia Foster
+"Cybernetic Revolution" by Emma Thompson
+"The Android Chronicles" by Nicholas Hayes
+"Cosmic Anomaly" by Emily Mitchell
+"Alien Abduction" by Daniel Hayes
+"Time Warp" by Lily Thompson
+"Space Odyssey" by Benjamin Clark
+"Dimensional Shift" by Olivia Wilson
+"Cosmic Awakening" by Michaela Foster
+"Astrofrontiers" by Sophia Thompson
+"Quantum Entanglement" by Ethan Clark
+"Galactic Nexus" by Rachel Phillips
+"Cybernetic Dominion" by Isabella Hayes
+"The Singularity Paradox" by Benjamin Mitchell
+"Cosmic Fusion" by Lily Foster
+"Interstellar Legacy" by Alexander Hayes
+"Future's Edge" by Olivia Foster
+"Alien Encounters" by Michael Reynolds
+"Time Dilation" by Emma Turner
+"Astrofrontiers" by Daniel Hayes
+"Dimensional Rift" by Sophia Phillips
+"Cybernetic Dreams" by Christopher Morgan
+"Nebula Chronicles" by Olivia Clark
+"The Singularity Effect" by Benjamin Foster
+"Parallel Worlds" by Lily Thompson
+"Galactic Conquest" by Alexander Wilson
+"Dark Matter Prophecy" by Ava Anderson
+"Robot Rebellion" by Grace Wilson
+"Cosmic Voyage" by Nicholas Foster
+"Alien Worlds" by Emily Mitchell
+"Time Paradox" by Benjamin Hayes
+"Stellar Ascendancy" by Lily Foster
+"Virtual Reality" by Olivia Clark
+"Infinite Possibilities" by Sophia Phillips
+"Interstellar Exodus" by Ethan Cooper
+"Astrobiological Encounter" by Ava Anderson
+"Beyond the Horizon" by Benjamin Foster
+"Cosmic Destiny" by Alexander Wilson
+"Galactic Empires" by Olivia Foster
+"Cybernetic Revolution" by Emma Thompson
+"The Android Chronicles" by Nicholas Hayes
+"Cosmic Anomaly" by Emily Mitchell
+"Alien Abduction" by Daniel Hayes
+"Time Warp" by Lily Thompson
+"Space Odyssey" by Benjamin Clark
+"Dimensional Shift" by Olivia Wilson
+"Cosmic Awakening" by Michaela Foster
+"Astrofrontiers" by Sophia Thompson
+"Quantum Entanglement" by Ethan Clark
+"Galactic Nexus" by Rachel Phillips
+"Cybernetic Dominion" by Isabella Hayes
+"The Singularity Paradox" by Benjamin Mitchell
+"Cosmic Fusion" by Lily Foster
+"Interstellar Legacy" by Alexander Hayes
+"Future's Edge" by Olivia Foster
+"Alien Encounters" by Michael Reynolds
+"Time Dilation" by Emma Turner
+"Astrofrontiers" by Daniel Hayes
+"Dimensional Rift" by Sophia Phillips
+"Cybernetic Dreams" by Christopher Morgan
+"Nebula Chronicles" by Olivia Clark
+"The Singularity Effect" by Benjamin Foster
+"Parallel Worlds" by Lily Thompson
+"Galactic Conquest" by Alexander Wilson
+"Dark Matter Prophecy" by Ava Anderson
+"Robot Rebellion" by Grace Wilson
+"Cosmic Voyage" by Nicholas Foster
+"Alien Worlds" by Emily Mitchell
+"Time Paradox" by Benjamin Hayes
+"Stellar Ascendancy" by Lily Foster
+"Virtual Reality" by Olivia Clark
+"Infinite Possibilities" by Sophia Phillips
+"Interstellar Exodus" by Ethan Cooper
+"Astrobiological Encounter" by Ava Anderson
+"Beyond the Horizon" by Benjamin Foster
+"Cosmic Destiny" by Alexander Wilson
+"Galactic Empires" by Olivia Foster
+"Cybernetic Revolution" by Emma Thompson
+"The Android Chronicles" by Nicholas Hayes
+"Cosmic Anomaly" by Emily Mitchell
+"Alien Abduction" by Daniel Hayes
+"Time Warp" by Lily Thompson
+"Space Odyssey" by Benjamin Clark
+"Dimensional Shift" by Olivia Wilson
+"Cosmic Awakening" by Michaela Foster
+"Astrofrontiers" by Sophia Thompson
+"Quantum Entanglement" by Ethan Clark
+"Galactic Nexus" by Rachel Phillips
+"Cybernetic Dominion" by Isabella Hayes
+"The Singularity Paradox" by Benjamin Mitchell
+"Cosmic Fusion" by Lily Foster
+"Interstellar Legacy" by Alexander Hayes
+"Future's Edge" by Olivia Foster
+"Alien Encounters" by Michael Reynolds
+"Time Dilation" by Emma Turner
+"Astrofrontiers" by Daniel Hayes
+"Dimensional Rift" by Sophia Phillips
+"Cybernetic Dreams" by Christopher Morgan
+"Nebula Chronicles" by Olivia Clark
+"The Singularity Effect" by Benjamin Foster
+"Parallel Worlds" by Lily Thompson
+"Galactic Conquest" by Alexander Wilson
+"Dark Matter Prophecy" by Ava Anderson
+"Robot Rebellion" by Grace Wilson
+"Cosmic Voyage" by Nicholas Foster
+"Alien Worlds" by Emily Mitchell
+"Time Paradox" by Benjamin Hayes
+"Stellar Ascendancy" by Lily Foster
+"Virtual Reality" by Olivia Clark
+"Infinite Possibilities" by Sophia Phillips
+"Interstellar Exodus" by Ethan Cooper
+"Astrobiological Encounter" by Ava Anderson
+"Beyond the Horizon" by Benjamin Foster
+"Cosmic Destiny" by Alexander Wilson
+"Galactic Empires" by Olivia Foster
+"Cybernetic Revolution" by Emma Thompson
+"The Android Chronicles" by Nicholas Hayes
+"Cosmic Anomaly" by Emily Mitchell
+"Alien Abduction" by Daniel Hayes
+"Time Warp" by Lily Thompson
+"Space Odyssey" by Benjamin Clark
+"Dimensional Shift" by Olivia Wilson
+"Cosmic Awakening" by Michaela Foster
+"Astrofrontiers" by Sophia Thompson
+"Quantum Entanglement" by Ethan Clark
+"Galactic Nexus" by Rachel Phillips
+"Cybernetic Dominion" by Isabella Hayes
+"The Singularity Paradox" by Benjamin Mitchell
+"Cosmic Fusion" by Lily Foster
+"Interstellar Legacy" by Alexander Hayes
+"Future's Edge" by Olivia Foster
+"Alien Encounters" by Michael Reynolds
+"Time Dilation" by Emma Turner
+"Astrofrontiers" by Daniel Hayes
+"Dimensional Rift" by Sophia Phillips
+"Cybernetic Dreams" by Christopher Morgan
+"Nebula Chronicles" by Olivia Clark
+"The Singularity Effect" by Benjamin Foster
+"Parallel Worlds" by Lily Thompson
+"Galactic Conquest" by Alexander Wilson
+"Dark Matter Prophecy" by Ava Anderson
+"Robot Rebellion" by Grace Wilson
+"Cosmic Voyage" by Nicholas Foster
+"Alien Worlds" by Emily Mitchell
+"Time Paradox" by Benjamin Hayes
+"Stellar Ascendancy" by Lily Foster
+"Virtual Reality" by Olivia Clark
+"Infinite Possibilities" by Sophia Phillips
+"Interstellar Exodus" by Ethan Cooper
+"Astrobiological Encounter" by Ava Anderson
+"Beyond the Horizon" by Benjamin Foster
+"Cosmic Destiny" by Alexander Wilson
+"Galactic Empires" by Olivia Foster
+"Cybernetic Revolution" by Emma Thompson
+"The Android Chronicles" by Nicholas Hayes
+"Cosmic Anomaly" by Emily Mitchell
+"Alien Abduction" by Daniel Hayes
