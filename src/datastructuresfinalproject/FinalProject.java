@@ -749,17 +749,17 @@ public class FinalProject extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         playAudio("click.wav");
         String username = txtUsername.getText();
-String password = txtPassword.getText();
-String login = username + " " + password;
-Scanner lScanner;
-try {
-    lScanner = new Scanner(new File("logins.txt"));
-    boolean loginFound = false;
-    while (lScanner.hasNextLine()) {
-        if (login.equals(lScanner.nextLine())) {
-            loginFound = true;
-            break;
-        }
+        String password = txtPassword.getText();
+        String login = username + " " + password;
+        Scanner lScanner;
+        try {
+            lScanner = new Scanner(new File("logins.txt"));
+            boolean loginFound = false;
+            while (lScanner.hasNextLine()) {
+                if (login.equals(lScanner.nextLine())) {
+                    loginFound = true;
+                    break;
+                }
     }
     lScanner.close();
     if (loginFound) {
@@ -779,29 +779,31 @@ try {
     }//GEN-LAST:event_txtUsernameActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-playAudio("click.wav");
+        playAudio("click.wav");
         try {
-    Scanner scanner = new Scanner(nameFile);
-    ArrayList<String> results = new ArrayList<String>();
-    StringBuilder output = new StringBuilder(); // To store the concatenated results
+        Scanner scanner = new Scanner(nameFile);
+        ArrayList<String> results = new ArrayList<String>();
+        HashTable<Integer, String> isbns = new HashTable<Integer, String>(100);
+        StringBuilder output = new StringBuilder(); // To store the concatenated results
 
-    while (scanner.hasNext()) {
-        String line = scanner.nextLine();
-        if (line.contains(searchtxt.getText())) {
-            results.add(line);
+        while (scanner.hasNext()) {
+            String line = scanner.nextLine();
+            if (line.contains(searchtxt.getText())) {
+                results.add(line);
+            }
         }
-    }
+    
+        for (String result : results) {
+            output.append(result).append("\n"); // Concatenate the results
+        }
 
-    for (String result : results) {
-        output.append(result).append("\n"); // Concatenate the results
-    }
+        searchArea.setText(output.toString()); // Set the concatenated results to the search area
 
-    searchArea.setText(output.toString()); // Set the concatenated results to the search area
-
-    scanner.close();
-} catch (FileNotFoundException ex) {
-    java.util.logging.Logger.getLogger(FinalProject.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-}
+        scanner.close();
+        
+        } catch (FileNotFoundException ex) {
+            java.util.logging.Logger.getLogger(FinalProject.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
             
     }//GEN-LAST:event_jButton7ActionPerformed
 
