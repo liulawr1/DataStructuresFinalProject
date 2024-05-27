@@ -1,305 +1,200 @@
-"To Kill a Mockingbird" by Harper Lee
-"1984" by George Orwell
-"Pride and Prejudice" by Jane Austen
-"The Great Gatsby" by F. Scott Fitzgerald
-"The Lord of the Rings" by J.R.R. Tolkien
-"The Catcher in the Rye" by J.D. Salinger
-"Harry Potter and the Philosopher's Stone" by J.K. Rowling
-"The Chronicles of Narnia" by C.S. Lewis
-"The Hobbit" by J.R.R. Tolkien
-"Harry Potter and the Order of the Phoenix" by J.K. Rowling
-"To the Lighthouse" by Virginia Woolf
-"Moby-Dick" by Herman Melville
-"The Adventures of Huckleberry Finn" by Mark Twain
-"The Alchemist" by Paulo Coelho
-"Jane Eyre" by Charlotte Bronte
-"The Hunger Games" by Suzanne Collins
-"Brave New World" by Aldous Huxley
-"The Da Vinci Code" by Dan Brown
-"The Color Purple" by Alice Walker
-"The Kite Runner" by Khaled Hosseini
-"Gone Girl" by Gillian Flynn
-"The Grapes of Wrath" by John Steinbeck
-"The Picture of Dorian Gray" by Oscar Wilde
-"The Sun Also Rises" by Ernest Hemingway
-"One Hundred Years of Solitude" by Gabriel Garcia Marquez
-"The Sound and the Fury" by William Faulkner
-"Wuthering Heights" by Emily Bronte
-"Slaughterhouse-Five" by Kurt Vonnegut
-"The Handmaid's Tale" by Margaret Atwood
-"Beloved" by Toni Morrison
-"The Road" by Cormac McCarthy
-"The Book Thief" by Markus Zusak
-"The Scarlet Letter" by Nathaniel Hawthorne
-"Catch-22" by Joseph Heller
-"The Bell Jar" by Sylvia Plath
-"Lord of the Flies" by William Golding
-"Crime and Punishment" by Fyodor Dostoevsky
-"Frankenstein" by Mary Shelley
-"Anna Karenina" by Leo Tolstoy
-"The Count of Monte Cristo" by Alexandre Dumas
-"Middlemarch" by George Eliot
-"The Brothers Karamazov" by Fyodor Dostoevsky
-"A Farewell to Arms" by Ernest Hemingway
-"Dracula" by Bram Stoker
-"The Picture of Dorian Gray" by Oscar Wilde
-"The Adventures of Tom Sawyer" by Mark Twain
-"The Secret History" by Donna Tartt
-"The Little Prince" by Antoine de Saint-Exupéry
-"East of Eden" by John Steinbeck
-"The Odyssey" by Homer
-"The Old Man and the Sea" by Ernest Hemingway
-"The Joy Luck Club" by Amy Tan
-"The Handmaid's Tale" by Margaret Atwood
-"The Poisonwood Bible" by Barbara Kingsolver
-"The Brief Wondrous Life of Oscar Wao" by Junot Diaz
-"The Grapes of Wrath" by John Steinbeck
-"The Picture of Dorian Gray" by Oscar Wilde
-"The Sun Also Rises" by Ernest Hemingway
-"One Hundred Years of Solitude" by Gabriel Garcia Marquez
-"The Sound and the Fury" by William Faulkner
-"Wuthering Heights" by Emily Bronte
-"Slaughterhouse-Five" by Kurt Vonnegut
-"The Handmaid's Tale" by Margaret Atwood
-"Beloved" by Toni Morrison
-"The Road" by Cormac McCarthy
-"The Book Thief" by Markus Zusak
-"The Scarlet Letter" by Nathaniel Hawthorne
-"Catch-22" by Joseph Heller
-"The Bell Jar" by Sylvia Plath
-"Lord of the Flies" by William Golding
-"Crime and Punishment" by Fyodor Dostoevsky
-"Frankenstein" by Mary Shelley
-"Anna Karenina" by Leo Tolstoy
-"The Count of Monte Cristo" by Alexandre Dumas
-"Middlemarch" by George Eliot
-"The Brothers Karamazov" by Fyodor Dostoevsky
-"A Farewell to Arms" by Ernest Hemingway
-"Dracula" by Bram Stoker
-"The Picture of Dorian Gray" by Oscar Wilde
-"The Adventures of Tom Sawyer" by Mark Twain
-"The Secret History" by Donna Tartt
-"The Little Prince" by Antoine de Saint-Exupéry
-"East of Eden" by John Steinbeck
-"The Odyssey" by Homer
-"The Old Man and the Sea" by Ernest Hemingway
-"The Joy Luck Club" by Amy Tan
-"The Poisonwood Bible" by Barbara Kingsolver
-"The Brief Wondrous Life of Oscar Wao" by Junot Diaz
-"The Grapes of Wrath" by John Steinbeck
-"The Adventures of Sherlock Holmes" by Arthur Conan Doyle
-"The Outsiders" by S.E. Hinton
-"The Secret Garden" by Frances Hodgson Burnett
-"The Color Purple" by Alice Walker
-"The Name of the Rose" by Umberto Eco
-"The Time Traveler's Wife" by Audrey Niffenegger
-"The Stranger" by Albert Camus
-"The Catcher in the Rye" by J.D. Salinger
-"The Shining" by Stephen King
-"The Stand" by Stephen King
-"The Picture of Dorian Gray" by Oscar Wilde
-"The Lovely Bones" by Alice Sebold
-"The Enigma of Eternity" by Amelia Collins
-"Shadow of Secrets" by Benjamin Hartley
-"Echoes of the Abyss" by Cassandra Blackwood
-"The Forgotten Star" by Dominic Summers
-"Whispers in the Mist" by Elena Montgomery
-"The Midnight Key" by Felix Sinclair
-"Crimson Dreams" by Genevieve Westfield
-"The Tangled Web" by Harper Anderson
-"Beyond the Veil" by Isabella Drake
-"Lost in Time" by Julian Knight
-"The Oracle's Curse" by Katrina Sullivan
-"The Shattered Kingdom" by Liam Fitzgerald
-"Aether Chronicles" by Maya Reynolds
-"The Crystal Labyrinth" by Nathaniel Rivers
-"The Phantom's Embrace" by Olivia Jameson
-"The Alchemy of Shadows" by Penelope Clarke
-"The Enchanted Forest" by Quentin Montgomery
-"The Whispering Winds" by Rosalind Hart
-"The Crimson Rose" by Sebastian Monroe
-"The Silent Symphony" by Thea Mitchell
-"The Forgotten City" by Victoria Hamilton
-"Under a Crescent Moon" by Wesley Harper
-"The Edge of Destiny" by Xavier Blackwell
-"The Enchanted Mirror" by Yvette Montgomery
-"The Moonlit Sonata" by Zachary Sullivan
-"The Secret Garden" by Ada Morrison
-"The Phantom's Legacy" by Beatrice Sinclair
-"A Song of Shadows" by Caleb Hartley
-"The Clockwork Chronicles" by Delilah Jameson
-"The Azure Abyss" by Elijah Montgomery
-"The Enigma of Eden" by Fiona Collins
-"The Lost City of Atlantis" by Gabriel Knight
-"The Midnight Masquerade" by Hannah Sullivan
-"The Whispering Woods" by Isaac Fitzgerald
-"The Chronicles of Avalon" by Jasmine Westfield
-"The Ruby Crown" by Kaitlyn Anderson
-"The Alchemist's Apprentice" by Leo Montgomery
-"The Stolen Stars" by Matilda Hart
-"The Siren's Song" by Nora Sinclair
-"The Enchanted Isle" by Owen Montgomery
-"The Arcane Prophecy" by Phoebe Clarke
-"The Isle of Shadows" by Quinn Hartley
-"The Ghostly Galleon" by Rosalyn Jameson
-"The Dark Carnival" by Samuel Knight
-"The Whispering Tide" by Tabitha Sullivan
-"The Crystal Kingdom" by Ursula Montgomery
-"The Secrets of Avalon" by Victor Hartley
-"The Enigma of Elara" by Willow Collins
-"The Timekeeper's Locket" by Xaviera Blackwood
-"The Astral Archives" by Yara Hart
-"The Forbidden Forest" by Zara Anderson
-"The Lost Heir" by Adrian Knight
-"The Oracle's Prophecy" by Bella Sullivan
-"The Enchanted Rose" by Callum Montgomery
-"The Phantom's Curse" by Delphine Hartley
-"The Shadowed Sanctuary" by Elias Sullivan
-"The Moonlit Mosaic" by Florence Clarke
-"The Forgotten Realm" by Gabriel Westfield
-"Harry Potter and the Half-Blood Prince" by J.K. Rowling
-"The Crimson Dagger" by Helena Anderson
-"The Symphony of Secrets" by Isidore Montgomery
-"The Enigma of Elysium" by Jasper Collins
-"The Lost Treasure" by Katherine Knight
-"The Midnight Monarch" by Lavinia Sinclair
-"The Whispers of Winter" by Maximilian Hartley
-"The Enchanted Chalice" by Nellie Jameson
-"The Starlight Sonata" by Oliver Sullivan
-"The Forbidden Garden" by Penelope Fitzgerald
-"The Phantom's Redemption" by Quentin Hart
-"The Shadowed Scribe" by Rosalind Westfield
-"The Enigma of Embers" by Sebastian Anderson
-"The Mystic Mirror" by Tabitha Montgomery
-"The Lost Symphony" by Victor Sullivan
-"The Whispering Shadows" by Waverly Hartley
-"The Alchemist's Legacy" by Xander Clarke
-"The Cursed Isle" by Yara Knight
-"Harry Potter and the Goblet of Fire" by J.K. Rowling
-"The Enchanted Echo" by Zara Sullivan
-"The Moonlit Manor" by Alastair Hart
-"The Secret Society" by Beatrice Westfield
-"The Enigma of Endymion" by Caleb Anderson
-"Harry Potter and the Deathly Hallows" by J.K. Rowling
-"The Forgotten Chronicles" by Delilah Montgomery
-"The Tangled Thorns" by Elijah Hartley
-"The Azure Elixir" by Fiona Sullivan
-"The Enchanted Veil" by Gabriel Clarke
-"The Silent Serenade" by Harriet Knight
-"The Alchemy of Dreams" by Isaac Sullivan
-"The Whispering Waters" by Jasmine Hartley
-"The Crimson Scroll" by Kieran Anderson
-"The Enigma of Esmeralda" by Lila Sinclair
-"The Moonlit Muse" by Maximus Montgomery
-"The Shattered Symphony" by Nathaniel Sullivan
-"The Forgotten Forest" by Olivia Westfield
-"The Phantom's Embrace" by Percival Hartley
-"The Whispers of Fate" by Quinlan Sinclair
-"The Crystal Cathedral" by Rosalyn Clarke
-"The Enchanted Kingdom" by Samuel Hart
-"The Enigma of Eliana" by Tatiana Knight
-"The Lost Chronicles" by Ulysses Sullivan
-"The Midnight Mirage" by Victoria Westfield
-"The Whispering Willow" by William Anderson
-"The Crimson Crown" by Xavier Hartley
-"The Enchanted Labyrinth" by Amelia Montgomery
-"The Shadowed Secrets" by Benjamin Westfield
-"The Whispering Moon" by Cassandra Hartley
-"The Forgotten Prophecy" by Dominic Clarke
-"The Midnight Oracle" by Elena Knight
-"The Crimson Mask" by Felix Anderson
-"The Tangled Tales" by Genevieve Sullivan
-"Beyond the Stars" by Harper Montgomery
-"Lost Souls" by Isabella Hartley
-"The Enigma of Aurora" by Julian Clarke
-"The Oracle's Quest" by Katrina Westfield
-"The Shattered Mirror" by Liam Hartley
-"Aether's Embrace" by Maya Clarke
-"The Crystal Citadel" by Nathaniel Hart
-"The Phantom's Whispers" by Olivia Sinclair
-"The Alchemy of Time" by Penelope Montgomery
-"The Enchanted Carousel" by Quentin Anderson
-"The Whispering Spires" by Rosalind West
-"The Crimson Blade" by Sebastian Clarke
-"The Silent Symphony" by Thea Hartley
-"The Forgotten Scrolls" by Victoria Sullivan
-"Under the Blood Moon" by Wesley Knight
-"The Edge of Illusion" by Xavier Hartley
-"The Enchanted Fire" by Yvette Clarke
-"The Moonlit Mirage" by Zachary Anderson
-"The Secret Society" by Ada Westfield
-"The Phantom's Legacy" by Beatrice Montgomery
-"A Song of Stars" by Caleb Clarke
-"The Clockwork Kingdom" by Delilah Hartley
-"The Azure Dreams" by Elijah Clarke
-"The Enigma of Avalon" by Fiona Hart
-"The Lost Chronicles" by Gabriel Knight
-"The Midnight Masquerade" by Hannah Westfield
-"The Whispering Forest" by Isaac Clarke
-"The Chronicles of Enchantment" by Jasmine Hartley
-"The Ruby Crown" by Kaitlyn Montgomery
-"The Alchemist's Legacy" by Leo Clarke
-"The Stolen Dreams" by Matilda Hartley
-"The Siren's Call" by Nora Anderson
-"The Enchanted Isles" by Owen Clarke
-"The Arcane Prophecy" by Phoebe Hart
-"The Isle of Whispers" by Quinn Knight
-"The Ghostly Voyage" by Rosalyn Anderson
-"The Dark Carnival" by Samuel Clarke
-"The Whispering Tide" by Tabitha Hartley
-"The Crystal Kingdom" by Ursula Clarke
-"The Secrets of Elara" by Victor Montgomery
-"The Enigma of Elysia" by Willow Hart
-"The Timekeeper's Secret" by Xaviera Clarke
-"The Astral Odyssey" by Yara Montgomery
-"The Forbidden Dreams" by Zara Hartley
-"The Lost Kingdom" by Adrian Clarke
-"The Oracle's Journey" by Bella Anderson
-"The Enchanted Rose" by Callum Hartley
-"The Phantom's Curse" by Delphine Clarke
-"The Shadowed Sanctuary" by Elias Hartley
-"The Moonlit Tapestry" by Florence Montgomery
-"The Forgotten Realms" by Gabriel Westfield
-"The Crimson Sun" by Helena Clarke
-"The Enigma of Eden" by Isidore Hartley
-"The Mystic Mirror" by Jasper Clarke
-"The Lost Symphony" by Katherine Hart
-"The Whispering Shadows" by Lavinia Anderson
-"The Alchemist's Apprentice" by Maximilian Clarke
-"The Cursed Isles" by Nellie Knight
-"The Enchanted Echoes" by Oliver Hartley
-"The Moonlit Mansion" by Penelope Westfield
-"The Secret Garden" by Quentin Clarke
-"The Enigma of Elara" by Rosalind Hart
-"The Whispering Waters" by Samuel Anderson
-"The Crystal Cathedral" by Tabitha Clarke
-"The Enchanted Kingdom" by Victor Hart
-"The Enigma of Eliana" by Waverly Clarke
-"The Lost Prophecies" by Xavier Knight
-"The Midnight Mirage" by Yara Hartley
-"The Whispering Willow" by Zara Anderson
-"The Crimson Crown" by Alastair Clarke
-"The Enchanted Parchment" by Beatrice Hartley
-"The Shadowed Shores" by Caleb Montgomery
-"The Azure Eternity" by Delilah Clarke
-"The Enigma of Endymion" by Elijah Hart
-"The Forgotten Chronicles" by Fiona Clarke
-"The Tangled Trails" by Gabriel Knight
-"The Whispering Flames" by Harriet Hartley
-"The Alchemy of Dreams" by Isaac Clarke
-"The Whispering Meadows" by Jasmine Hartley
-"The Crimson Secret" by Kieran Anderson
-"The Enigma of Esmeralda" by Lila Clarke
-"The Moonlit Muse" by Maximus Hartley
-"Harry Potter and the Prisoner of Azkaban" by J.K. Rowling
-"The Shattered Symphony" by Nathaniel Clarke
-"The Forgotten Forest" by Olivia Westfield
-"The Phantom's Embrace" by Percival Clarke
-"The Whispers of Destiny" by Quinlan Hartley
-"The Crystal Chalice" by Rosalyn Clarke
-"The Enchanted Isle" by Samuel Hartley
-"The Enigma of Eli" by Tatiana Anderson
-"The Lost Legends" by Ulysses Clarke
-"The Midnight Masquerade" by Victoria Hart
-"The Whispering Willow" by William Clarke
-"The Crimson Crown" by Xavier Hartley
+To Kill a Mockingbird by Harper Lee - ISBN: 9780061120084
+1984 by George Orwell - ISBN: 9780451524935
+The Great Gatsby by F. Scott Fitzgerald - ISBN: 9780743273565
+The Catcher in the Rye by J.D. Salinger - ISBN: 9780316769488
+Pride and Prejudice by Jane Austen - ISBN: 9781503290563
+Moby-Dick by Herman Melville - ISBN: 9781503280786
+War and Peace by Leo Tolstoy - ISBN: 9781400079988
+Ulysses by James Joyce - ISBN: 9780199535675
+The Odyssey by Homer - ISBN: 9780140268867
+Crime and Punishment by Fyodor Dostoevsky - ISBN: 9780143058144
+Jane Eyre by Charlotte Brontë - ISBN: 9780141441146
+Wuthering Heights by Emily Brontë - ISBN: 9780141439556
+The Brothers Karamazov by Fyodor Dostoevsky - ISBN: 9780374528379
+Brave New World by Aldous Huxley - ISBN: 9780060850524
+Les Misérables by Victor Hugo - ISBN: 9780451419439
+The Count of Monte Cristo by Alexandre Dumas - ISBN: 9780140449266
+The Grapes of Wrath by John Steinbeck - ISBN: 9780143039433
+Great Expectations by Charles Dickens - ISBN: 9780141439563
+Middlemarch by George Eliot - ISBN: 9780141439549
+Anna Karenina by Leo Tolstoy - ISBN: 9780143035008
+The Picture of Dorian Gray by Oscar Wilde - ISBN: 9780141439570
+Madame Bovary by Gustave Flaubert - ISBN: 9780140449129
+The Iliad by Homer - ISBN: 9780140275360
+Frankenstein by Mary Shelley - ISBN: 9780141439471
+Dracula by Bram Stoker - ISBN: 9780141439846
+The Adventures of Huckleberry Finn by Mark Twain - ISBN: 9780143107323
+Fahrenheit 451 by Ray Bradbury - ISBN: 9781451673319
+Heart of Darkness by Joseph Conrad - ISBN: 9780141441672
+The Hobbit by J.R.R. Tolkien - ISBN: 9780547928227
+Slaughterhouse-Five by Kurt Vonnegut - ISBN: 9780385333849
+Catch-22 by Joseph Heller - ISBN: 9781451626650
+The Road by Cormac McCarthy - ISBN: 9780307387899
+One Hundred Years of Solitude by Gabriel Garcia Marquez - ISBN: 9780060883287
+Beloved by Toni Morrison - ISBN: 9781400033416
+A Tale of Two Cities by Charles Dickens - ISBN: 9780141439600
+Gone with the Wind by Margaret Mitchell - ISBN: 9781451635621
+The Shining by Stephen King - ISBN: 9780307743657
+Lolita by Vladimir Nabokov - ISBN: 9780679723165
+The Handmaid's Tale by Margaret Atwood - ISBN: 9780385490818
+Life of Pi by Yann Martel - ISBN: 9780156027328
+The Secret Garden by Frances Hodgson Burnett - ISBN: 9780141336568
+The Alchemist by Paulo Coelho - ISBN: 9780061122415
+The Time Traveler's Wife by Audrey Niffenegger - ISBN: 9780156029438
+The Book Thief by Markus Zusak - ISBN: 9780375842206
+Dune by Frank Herbert - ISBN: 9780441172719
+The Color Purple by Alice Walker - ISBN: 9780156028356
+Memoirs of a Geisha by Arthur Golden - ISBN: 9780679781585
+The Kite Runner by Khaled Hosseini - ISBN: 9781594631931
+The Da Vinci Code by Dan Brown - ISBN: 9780307474278
+Water for Elephants by Sara Gruen - ISBN: 9781565125605
+The Girl with the Dragon Tattoo by Stieg Larsson - ISBN: 9780307949486
+The Hunger Games by Suzanne Collins - ISBN: 9780439023528
+The Maze Runner by James Dashner - ISBN: 9780385737951
+Divergent by Veronica Roth - ISBN: 9780062024039
+Ender's Game by Orson Scott Card - ISBN: 9780812550702
+The Giver by Lois Lowry - ISBN: 9780544336266
+The Hitchhiker's Guide to the Galaxy by Douglas Adams - ISBN: 9780345391803
+Harry Potter and the Sorcerer's Stone by J.K. Rowling - ISBN: 9780590353427
+The Fellowship of the Ring by J.R.R. Tolkien - ISBN: 9780547928210
+American Gods by Neil Gaiman - ISBN: 9780062472108
+The Chronicles of Narnia by C.S. Lewis - ISBN: 9780066238502
+The Golden Compass by Philip Pullman - ISBN: 9780440418320
+Good Omens by Neil Gaiman & Terry Pratchett - ISBN: 9780060853986
+The Left Hand of Darkness by Ursula K. Le Guin - ISBN: 9780441478125
+Do Androids Dream of Electric Sheep? by Philip K. Dick - ISBN: 9780345404473
+Neuromancer by William Gibson - ISBN: 9780441569595
+Snow Crash by Neal Stephenson - ISBN: 9780553380958
+Ready Player One by Ernest Cline - ISBN: 9780307887443
+Station Eleven by Emily St. John Mandel - ISBN: 9780804172448
+The Martian by Andy Weir - ISBN: 9780553418026
+World War Z by Max Brooks - ISBN: 9780307346612
+The Road by Cormac McCarthy - ISBN: 9780307387899
+Never Let Me Go by Kazuo Ishiguro - ISBN: 9781400078776
+The Wind-Up Bird Chronicle by Haruki Murakami - ISBN: 9780679775430
+Kafka on the Shore by Haruki Murakami - ISBN: 9781400079278
+1Q84 by Haruki Murakami - ISBN: 9780307593313
+The Night Circus by Erin Morgenstern - ISBN: 9780307744432
+Cloud Atlas by David Mitchell - ISBN: 9780375507259
+The Goldfinch by Donna Tartt - ISBN: 9780316055443
+Big Little Lies by Liane Moriarty - ISBN: 9780399167065
+The Light Between Oceans by M.L. Stedman - ISBN: 9781451681758
+A Man Called Ove by Fredrik Backman - ISBN: 9781476738017
+Where the Crawdads Sing by Delia Owens - ISBN: 9780735219090
+Little Fires Everywhere by Celeste Ng - ISBN: 9780735224315
+The Girl on the Train by Paula Hawkins - ISBN: 9781594634024
+Gone Girl by Gillian Flynn - ISBN: 9780307588371
+The Silent Patient by Alex Michaelides - ISBN: 9781250301697
+An American Marriage by Tayari Jones - ISBN: 9781616208684
+The Help by Kathryn Stockett - ISBN: 9780399155345
+All the Light We Cannot See by Anthony Doerr - ISBN: 9781476746586
+The Nightingale by Kristin Hannah - ISBN: 9780312577222
+The Immortalists by Chloe Benjamin - ISBN: 9780735213180
+The Great Alone by Kristin Hannah - ISBN: 9780312577239
+Circe by Madeline Miller - ISBN: 9780316556346
+The Song of Achilles by Madeline Miller - ISBN: 9780062060623
+Eleanor Oliphant Is Completely Fine by Gail Honeyman - ISBN: 9780735220690
+Educated by Tara Westover - ISBN: 9780399590504
+Becoming by Michelle Obama - ISBN: 9781524763138
+Where the Forest Meets the Stars by Glendy Vanderah - ISBN: 9781503904919
+The Seven Husbands of Evelyn Hugo by Taylor Jenkins Reid - ISBN: 9781501139237
+Daisy Jones & The Six by Taylor Jenkins Reid - ISBN: 9781524798628
+The Last Thing He Told Me by Laura Dave - ISBN: 9781501171343
+The Tattooist of Auschwitz by Heather Morris - ISBN: 9780062797155
+The Book of Lost Friends by Lisa Wingate - ISBN: 9781984819888
+The Dutch House by Ann Patchett - ISBN: 9780062963673
+The Nickel Boys by Colson Whitehead - ISBN: 9780385537070
+The Underground Railroad by Colson Whitehead - ISBN: 9780385542364
+Homegoing by Yaa Gyasi - ISBN: 9781101947135
+Sing, Unburied, Sing by Jesmyn Ward - ISBN: 9781501126062
+Salvage the Bones by Jesmyn Ward - ISBN: 9781608196265
+The Overstory by Richard Powers - ISBN: 9780393356687
+The Water Dancer by Ta-Nehisi Coates - ISBN: 9780399590597
+Normal People by Sally Rooney - ISBN: 9781984822178
+Conversations with Friends by Sally Rooney - ISBN: 9780451499059
+Little Women by Louisa May Alcott - ISBN: 9780147514014
+Emma by Jane Austen - ISBN: 9780141439587
+Persuasion by Jane Austen - ISBN: 9780141439686
+Sense and Sensibility by Jane Austen - ISBN: 9780141439662
+Mansfield Park by Jane Austen - ISBN: 9780141439808
+Northanger Abbey by Jane Austen - ISBN: 9780141439792
+The Tale of Genji by Murasaki Shikibu - ISBN: 9780142437148
+The Divine Comedy by Dante Alighieri - ISBN: 9780142437223
+Paradise Lost by John Milton - ISBN: 9780140424393
+Don Quixote by Miguel de Cervantes - ISBN: 9780142437230
+The Canterbury Tales by Geoffrey Chaucer - ISBN: 9780140424386
+Gulliver's Travels by Jonathan Swift - ISBN: 9780141439495
+Robinson Crusoe by Daniel Defoe - ISBN: 9780141439822
+Moll Flanders by Daniel Defoe - ISBN: 9780141439945
+The Scarlet Letter by Nathaniel Hawthorne - ISBN: 9780142437261
+The Red Badge of Courage by Stephen Crane - ISBN: 9780143039358
+Uncle Tom's Cabin by Harriet Beecher Stowe - ISBN: 9780142437223
+Treasure Island by Robert Louis Stevenson - ISBN: 9780141439815
+The Strange Case of Dr. Jekyll and Mr. Hyde by Robert Louis Stevenson - ISBN: 9780141439730
+The War of the Worlds by H.G. Wells - ISBN: 9780141441030
+The Invisible Man by H.G. Wells - ISBN: 9780141439983
+The Time Machine by H.G. Wells - ISBN: 9780141439976
+A Passage to India by E.M. Forster - ISBN: 9780141441160
+Howard's End by E.M. Forster - ISBN: 9780141182131
+A Room with a View by E.M. Forster - ISBN: 9780141183299
+Brideshead Revisited by Evelyn Waugh - ISBN: 9780316216452
+A Handful of Dust by Evelyn Waugh - ISBN: 9780316216391
+Catch-22 by Joseph Heller - ISBN: 9781451626650
+To the Lighthouse by Virginia Woolf - ISBN: 9780156907392
+Mrs. Dalloway by Virginia Woolf - ISBN: 9780156628709
+The Waves by Virginia Woolf - ISBN: 9780156949606
+A Portrait of the Artist as a Young Man by James Joyce - ISBN: 9780142437346
+Finnegans Wake by James Joyce - ISBN: 9780141183114
+The Sound and the Fury by William Faulkner - ISBN: 9780679732242
+As I Lay Dying by William Faulkner - ISBN: 9780679732259
+Light in August by William Faulkner - ISBN: 9780679732266
+Absalom, Absalom! by William Faulkner - ISBN: 9780679732181
+The Sun Also Rises by Ernest Hemingway - ISBN: 9780743297332
+A Farewell to Arms by Ernest Hemingway - ISBN: 9780743297332
+For Whom the Bell Tolls by Ernest Hemingway - ISBN: 9780684803357
+The Old Man and the Sea by Ernest Hemingway - ISBN: 9780684801223
+On the Road by Jack Kerouac - ISBN: 9780143105466
+One Flew Over the Cuckoo's Nest by Ken Kesey - ISBN: 9780451163967
+In Cold Blood by Truman Capote - ISBN: 9780679745587
+Breakfast at Tiffany's by Truman Capote - ISBN: 9780679745655
+Slaughterhouse-Five by Kurt Vonnegut - ISBN: 9780385333849
+Cat's Cradle by Kurt Vonnegut - ISBN: 9780385333481
+The Catcher in the Rye by J.D. Salinger - ISBN: 9780316769488
+Franny and Zooey by J.D. Salinger - ISBN: 9780316769495
+Nine Stories by J.D. Salinger - ISBN: 9780316769501
+Raise High the Roof Beam, Carpenters and Seymour: An Introduction by J.D. Salinger - ISBN: 9780316769518
+The Adventures of Tom Sawyer by Mark Twain - ISBN: 9780143039563
+The Adventures of Huckleberry Finn by Mark Twain - ISBN: 9780143107323
+A Connecticut Yankee in King Arthur's Court by Mark Twain - ISBN: 9780142437759
+The Prince and the Pauper by Mark Twain - ISBN: 9780140436693
+The Grapes of Wrath by John Steinbeck - ISBN: 9780143039433
+Of Mice and Men by John Steinbeck - ISBN: 9780140177398
+East of Eden by John Steinbeck - ISBN: 9780142004234
+The Pearl by John Steinbeck - ISBN: 9780140177374
+The Red Pony by John Steinbeck - ISBN: 9780140177367
+The Old Man and the Sea by Ernest Hemingway - ISBN: 9780684801223
+A Moveable Feast by Ernest Hemingway - ISBN: 9780684824994
+The Call of the Wild by Jack London - ISBN: 9780141321059
+White Fang by Jack London - ISBN: 9780141321110
+The Sea-Wolf by Jack London - ISBN: 9780141441805
+The Catcher in the Rye by J.D. Salinger - ISBN: 9780316769488
+To Kill a Mockingbird by Harper Lee - ISBN: 9780061120084
+Gone with the Wind by Margaret Mitchell - ISBN: 9781451635621
+The Secret Garden by Frances Hodgson Burnett - ISBN: 9780141336568
+Anne of Green Gables by L.M. Montgomery - ISBN: 9780141321592
+Little Women by Louisa May Alcott - ISBN: 9780147514014
+Emma by Jane Austen - ISBN: 9780141439587
+Pride and Prejudice by Jane Austen - ISBN: 9781503290563
+Sense and Sensibility by Jane Austen - ISBN: 9780141439662
+Northanger Abbey by Jane Austen - ISBN: 9780141439792
+Persuasion by Jane Austen - ISBN: 9780141439686
+Mansfield Park by Jane Austen - ISBN: 9780141439808
+Wuthering Heights by Emily Brontë - ISBN: 9780141439556
+Jane Eyre by Charlotte Brontë - ISBN: 9780141441146
+Villette by Charlotte Brontë - ISBN: 9780140434798
+Agnes Grey by Anne Brontë - ISBN: 9780140432107
+The Tenant of Wildfell Hall by Anne Brontë - ISBN: 9780140434743
+The Picture of Dorian Gray by Oscar Wilde - ISBN: 9780141439570
+The Importance of Being Earnest by Oscar Wilde - ISBN: 9780486264783
+The Call of the Wild by Jack London - ISBN: 9780141321059
+White Fang by Jack London - ISBN: 9780141321110

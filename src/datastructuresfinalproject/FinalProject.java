@@ -92,6 +92,7 @@ public class FinalProject extends javax.swing.JFrame {
         jTextField4 = new javax.swing.JTextField();
         jButton7 = new javax.swing.JButton();
         jButton20 = new javax.swing.JButton();
+        jButton25 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jButton5 = new javax.swing.JButton();
@@ -119,7 +120,7 @@ public class FinalProject extends javax.swing.JFrame {
         jLabel1.setText("Enter your Name");
 
         jLabel3.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        jLabel3.setText("Welcome to the Mr. Beck's Library");
+        jLabel3.setText("Welcome to Mr. Beck's Library");
 
         jLabel2.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
         jLabel2.setText("Enter your password");
@@ -567,6 +568,14 @@ public class FinalProject extends javax.swing.JFrame {
             }
         });
 
+        jButton25.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        jButton25.setText("Copy");
+        jButton25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton25ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -576,8 +585,10 @@ public class FinalProject extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 946, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 387, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 626, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -601,13 +612,14 @@ public class FinalProject extends javax.swing.JFrame {
                     .addComponent(jButton7))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 346, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(35, 35, 35)
+                .addGap(77, 77, 77)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
-                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(62, 62, 62)
+                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton25))
+                .addGap(71, 71, 71)
                 .addComponent(jButton20)
-                .addContainerGap(93, Short.MAX_VALUE))
+                .addContainerGap(42, Short.MAX_VALUE))
         );
 
         main.addTab("Search", jPanel2);
@@ -783,7 +795,6 @@ public class FinalProject extends javax.swing.JFrame {
         try {
         Scanner scanner = new Scanner(nameFile);
         ArrayList<String> results = new ArrayList<String>();
-        HashTable<Integer, String> isbns = new HashTable<Integer, String>(100);
         StringBuilder output = new StringBuilder(); // To store the concatenated results
 
         while (scanner.hasNext()) {
@@ -848,10 +859,22 @@ public class FinalProject extends javax.swing.JFrame {
             }
 
             Scanner readFile = new Scanner(nameFile);
-            while (readFile.hasNextLine()) {
-                String bookTitle = readFile.nextLine();
-                jTextArea3.append(bookTitle + "\n"); // Add a new line after each book title read
+//            while (readFile.hasNextLine()) {
+//                String bookTitle = readFile.nextLine();
+//                jTextArea3.append(bookTitle + "\n"); // Add a new line after each book title read
+//            }
+            
+            HashTable<Integer, String> FictionIsbns = new HashTable<Integer, String>(200);
+            String[] tests = new String[200];
+            for (int i = 0; i < tests.length; i++) {
+                String isbn = readFile.nextLine();
+                tests[i] = isbn;
+                if (tests[i] != null) {
+                    FictionIsbns.hashInsert(i, tests[i]);
+                    jTextArea3.append(FictionIsbns.hashSearch(i) + "\n");  
+                }
             }
+            
             readFile.close(); // Close the scanner after reading
 
         } catch (FileNotFoundException ex) {
@@ -1063,8 +1086,10 @@ public class FinalProject extends javax.swing.JFrame {
         
         String filePath = "logins.txt";
         try (FileWriter fileWriter = new FileWriter(filePath, true)) {
-            fileWriter.write(jTextField1.getText()+" ");
-            fileWriter.write(jTextField2.getText()+"\n");
+            if (jTextField1 != null && jTextField2 != null) {
+                fileWriter.write(jTextField1.getText()+" ");
+                fileWriter.write(jTextField2.getText()+"\n");
+            }
         } catch (IOException e) {
             System.out.println("An error occurred while writing to the file.");
             e.printStackTrace();
@@ -1115,6 +1140,21 @@ public class FinalProject extends javax.swing.JFrame {
     private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
         playAudio("checkout tab.wav");
     }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+//        String text = searchArea.getText();
+//        StringSelection stringSelection = new StringSelection(text);
+//        Clipboard clpbrd = Toolkit.getDefaultToolkit().getSystemClipboard();
+//        clpbrd.setContents(stringSelection, null);
+//
+//        // To retrieve the text back from clipboard
+//        try {
+//            jTextField4.setText((String) clpbrd.getData(DataFlavor.stringFlavor));
+//        } catch (UnsupportedFlavorException | IOException ex) {
+//            ex.printStackTrace();
+//            jTextField4.setText("");
+//        }
+    }//GEN-LAST:event_jButton25ActionPerformed
     private void playAudio(String filename) {
         try {
             File file = new File(filename);
@@ -1184,6 +1224,7 @@ public class FinalProject extends javax.swing.JFrame {
     private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton25;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;

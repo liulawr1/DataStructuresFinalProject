@@ -43,10 +43,6 @@ public class HashTable<Key extends Comparable<? super Key>, E> {
         Object keyO = (Object) key;
         if (keyO.getClass() == Integer.class) {
             int square = (Integer) keyO^2;
-            int length = (int) (Math.log10(square) + 1);  // I add an extra parameter that return if the size was 3 digits or less
-            if (length <= Math.log10(M)){
-                return square % M;
-            }
             int midDigits = getMidDigit(square);
             return midDigits % M;
         } else if (keyO.getClass() == String.class) {
@@ -55,6 +51,7 @@ public class HashTable<Key extends Comparable<? super Key>, E> {
             return key.hashCode() % M;
         }
     }
+
     private int getMidDigit(int key) {
         int number = key;
         String numberStr = Integer.toString(number);
