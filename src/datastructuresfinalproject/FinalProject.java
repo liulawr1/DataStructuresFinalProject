@@ -18,6 +18,9 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 import javax.swing.JOptionPane;
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDateTime;
+import java.time.Period;
+import java.time.temporal.ChronoUnit;
+import java.time.LocalTime;
 
 /**
  *
@@ -52,7 +55,7 @@ public class FinalProject extends javax.swing.JFrame {
 
         main = new javax.swing.JTabbedPane();
         jPanel8 = new javax.swing.JPanel();
-        jLabel16 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         txtUsername = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
@@ -117,22 +120,23 @@ public class FinalProject extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel16.setIcon(new javax.swing.ImageIcon("/Users/lawrence/Desktop/DataStructuresFinalProject/welcomepage.png")); // NOI18N
-        jLabel16.setText("jLabel16");
+        jLabel15.setIcon(new javax.swing.ImageIcon("/Users/lawrence/Desktop/DataStructuresFinalProject/logingif.gif")); // NOI18N
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
         jPanel8Layout.setHorizontalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
-                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 1522, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 30, Short.MAX_VALUE))
+                .addContainerGap()
+                .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 1413, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(133, Short.MAX_VALUE))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
-                .addComponent(jLabel16)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addContainerGap()
+                .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 845, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(120, Short.MAX_VALUE))
         );
 
         main.addTab("Welcome", jPanel8);
@@ -262,7 +266,7 @@ public class FinalProject extends javax.swing.JFrame {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(1, 1, 1)
                                 .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 140, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 401, Short.MAX_VALUE)
                         .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -354,7 +358,7 @@ public class FinalProject extends javax.swing.JFrame {
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton16)
                     .addComponent(jButton15))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 395, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 656, Short.MAX_VALUE)
                 .addComponent(jButton23)
                 .addContainerGap())
         );
@@ -474,7 +478,7 @@ public class FinalProject extends javax.swing.JFrame {
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButton12)
-                        .addContainerGap(98, Short.MAX_VALUE))
+                        .addContainerGap(359, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton19)
@@ -546,7 +550,7 @@ public class FinalProject extends javax.swing.JFrame {
                     .addComponent(jButton22))
                 .addGap(18, 18, 18)
                 .addComponent(jLabel8)
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addContainerGap(294, Short.MAX_VALUE))
         );
 
         main.addTab("Catalog", jPanel5);
@@ -648,7 +652,7 @@ public class FinalProject extends javax.swing.JFrame {
                     .addComponent(jButton25))
                 .addGap(71, 71, 71)
                 .addComponent(jButton20)
-                .addContainerGap(42, Short.MAX_VALUE))
+                .addContainerGap(303, Short.MAX_VALUE))
         );
 
         main.addTab("Search", jPanel2);
@@ -724,7 +728,7 @@ public class FinalProject extends javax.swing.JFrame {
                 .addComponent(jLabel5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 517, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 41, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 302, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jButton21, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
                     .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -759,7 +763,7 @@ public class FinalProject extends javax.swing.JFrame {
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGap(16, 16, 16)
                         .addComponent(jLabel12)))
-                .addContainerGap(94, Short.MAX_VALUE))
+                .addContainerGap(355, Short.MAX_VALUE))
         );
 
         main.addTab("Thank You", jPanel7);
@@ -793,7 +797,7 @@ public class FinalProject extends javax.swing.JFrame {
                 .addComponent(jLabel10)
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 593, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addContainerGap(280, Short.MAX_VALUE))
         );
 
         main.addTab("Librarian", jPanel9);
@@ -835,11 +839,21 @@ public class FinalProject extends javax.swing.JFrame {
         
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd");
         LocalDateTime now = LocalDateTime.now();
+        LocalDateTime target = now.plusDays(14); // Correctly adding 14 days to now
 
         String filePath = "log.txt";
+
         try (FileWriter fileWriter = new FileWriter(filePath, true)) {
-            if (jTextArea2 != null) {
-                fileWriter.write(activeUser + " has borrowed...\n" + jTextArea2.getText() + "on " + dtf.format(now) + "\n");
+            if (jTextArea2 != null) { // Assuming jTextArea2 is defined and contains text
+                long daysUntil = ChronoUnit.DAYS.between(now, target);
+                int daysLeft = (int) daysUntil; // Correcting the type and calculation here
+                if (daysLeft <= 0) {
+                    fileWriter.write(activeUser + " has borrowed...\n" + "    " + jTextArea2.getText() + " on " + dtf.format(now) + " It is overdue" + "\n");
+                    fileWriter.write("\n");
+                } else {
+                    fileWriter.write(activeUser + " has borrowed...\n" + "    " + jTextArea2.getText() + " on " + dtf.format(now) + " They have " + daysLeft + " days left" +  "\n");
+                    fileWriter.write("\n");
+                }
             }
         } catch (IOException e) {
             System.out.println("An error occurred while writing to the file.");
@@ -853,14 +867,21 @@ public class FinalProject extends javax.swing.JFrame {
         main.setEnabledAt(3,false);
         main.setSelectedIndex(7);
         
-        Scanner readFile = new Scanner(filePath);
-        while (readFile.hasNextLine()) {
-            jTextArea1.append(readFile.nextLine() + "\n");
+        try {
+            Scanner readFile = new Scanner(new File("log.txt"));
+            while (readFile.hasNextLine()) {
+                jTextArea1.append(readFile.nextLine() + "\n");
+            }
+            readFile.close();
+        } catch (IOException e) {
+            System.out.println("Error");
+            e.printStackTrace();
         }
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
-        //        String text = searchArea.getText();
+        jTextField4.setText(searchArea.getText());
+//        String text = searchArea.getText();
         //        StringSelection stringSelection = new StringSelection(text);
         //        Clipboard clpbrd = Toolkit.getDefaultToolkit().getSystemClipboard();
         //        clpbrd.setContents(stringSelection, null);
@@ -1219,11 +1240,11 @@ public class FinalProject extends javax.swing.JFrame {
             if (loginFound) {
                 if (login.equals("librarian 123")) {
                     main.setEnabledAt(8, true);
-                    this.nameFile = new File("log.txt");
-                    Scanner readFile = new Scanner(nameFile);
+                    Scanner readFile = new Scanner(new File("log.txt"));
                     while (readFile.hasNextLine()) {
                         jTextArea1.append(readFile.nextLine() + "\n");
                     }
+                    readFile.close();
                 }
                 main.setEnabledAt(3, true);
                 main.setSelectedIndex(3);
@@ -1253,11 +1274,6 @@ public class FinalProject extends javax.swing.JFrame {
         }
     }
     
-
-
-
-
-
 
     /**
      * @param args the command line arguments
@@ -1324,7 +1340,7 @@ public class FinalProject extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
