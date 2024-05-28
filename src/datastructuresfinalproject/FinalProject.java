@@ -16,13 +16,16 @@ import javax.sound.sampled.Clip;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 import javax.swing.JOptionPane;
+import java.time.format.DateTimeFormatter;
+import java.time.LocalDateTime;
 
 /**
  *
  * @author heima
  */
 public class FinalProject extends javax.swing.JFrame {
-        File nameFile;
+    String activeUser;
+    File nameFile;
     /**
      * Creates new form FinalProject
      */
@@ -31,12 +34,14 @@ public class FinalProject extends javax.swing.JFrame {
     public FinalProject() {
         
         initComponents();
-        main.setEnabledAt(1, false);
-        main.setEnabledAt(2, false);
+        main.setEnabledAt(1, true);
+        main.setEnabledAt(2, true);
         main.setEnabledAt(3, false);
         main.setEnabledAt(4, false);
         main.setEnabledAt(5, false);
         main.setEnabledAt(6,false);
+        main.setEnabledAt(7,false);
+        main.setEnabledAt(8,false);
         
         playAudio("Minecraft.wav");
     }
@@ -46,6 +51,8 @@ public class FinalProject extends javax.swing.JFrame {
     private void initComponents() {
 
         main = new javax.swing.JTabbedPane();
+        jPanel8 = new javax.swing.JPanel();
+        jLabel16 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         txtUsername = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
@@ -65,7 +72,6 @@ public class FinalProject extends javax.swing.JFrame {
         jButton15 = new javax.swing.JButton();
         jButton16 = new javax.swing.JButton();
         jButton23 = new javax.swing.JButton();
-        jLabel10 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
@@ -104,10 +110,34 @@ public class FinalProject extends javax.swing.JFrame {
         jPanel7 = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
+        jPanel9 = new javax.swing.JPanel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
+        jLabel10 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(240, 240, 240));
+        jLabel16.setIcon(new javax.swing.ImageIcon("/Users/lawrence/Desktop/DataStructuresFinalProject/welcomepage.png")); // NOI18N
+        jLabel16.setText("jLabel16");
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 1522, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 30, Short.MAX_VALUE))
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addComponent(jLabel16)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+
+        main.addTab("Welcome", jPanel8);
+
+        jPanel1.setBackground(new java.awt.Color(212, 195, 148));
 
         txtUsername.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
         txtUsername.addActionListener(new java.awt.event.ActionListener() {
@@ -116,18 +146,22 @@ public class FinalProject extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial Black", 0, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(23, 37, 87));
         jLabel1.setText("Enter your Name");
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Arial Black", 0, 36)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(23, 37, 87));
         jLabel3.setText("Welcome to Mr. Beck's Library");
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial Black", 0, 36)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(23, 37, 87));
         jLabel2.setText("Enter your password");
 
         txtPassword.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
 
-        jButton1.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Arial Black", 0, 36)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(23, 37, 87));
         jButton1.setText("Login");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -136,6 +170,7 @@ public class FinalProject extends javax.swing.JFrame {
         });
 
         jButton14.setFont(new java.awt.Font("Arial Black", 0, 36)); // NOI18N
+        jButton14.setForeground(new java.awt.Color(23, 37, 87));
         jButton14.setText("Sign Up");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -144,9 +179,11 @@ public class FinalProject extends javax.swing.JFrame {
         });
 
         jLabel9.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(23, 37, 87));
         jLabel9.setText("Don't have an account?");
 
-        helpButton1.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        helpButton1.setFont(new java.awt.Font("Arial Black", 0, 36)); // NOI18N
+        helpButton1.setForeground(new java.awt.Color(23, 37, 87));
         helpButton1.setText("Help");
         helpButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,7 +191,8 @@ public class FinalProject extends javax.swing.JFrame {
             }
         });
 
-        jButton4.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        jButton4.setFont(new java.awt.Font("Arial Black", 0, 36)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(23, 37, 87));
         jButton4.setText("Exit");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -166,6 +204,15 @@ public class FinalProject extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(709, 709, 709))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(helpButton1)
+                        .addGap(160, 160, 160))))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -188,18 +235,9 @@ public class FinalProject extends javax.swing.JFrame {
                         .addGap(304, 304, 304)
                         .addComponent(jButton1))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(386, 386, 386)
+                        .addGap(410, 410, 410)
                         .addComponent(jLabel9)))
-                .addContainerGap(312, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(709, 709, 709))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(helpButton1)
-                        .addGap(160, 160, 160))))
+                .addContainerGap(273, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -216,7 +254,7 @@ public class FinalProject extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel2)
                             .addComponent(txtPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(54, 54, 54)
+                        .addGap(55, 55, 55)
                         .addComponent(jLabel9)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -224,7 +262,7 @@ public class FinalProject extends javax.swing.JFrame {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(1, 1, 1)
                                 .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 156, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 140, Short.MAX_VALUE)
                         .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -274,8 +312,6 @@ public class FinalProject extends javax.swing.JFrame {
             }
         });
 
-        jLabel10.setText("jLabel10");
-
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
@@ -283,25 +319,20 @@ public class FinalProject extends javax.swing.JFrame {
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addGap(182, 182, 182)
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel6Layout.createSequentialGroup()
-                                .addGap(182, 182, 182)
-                                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel13)
-                                    .addComponent(jLabel14))
-                                .addGap(175, 175, 175))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(jButton15)
-                                .addGap(81, 81, 81)))
-                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jTextField2, javax.swing.GroupLayout.DEFAULT_SIZE, 447, Short.MAX_VALUE)
-                                .addComponent(jTextField1))))
-                    .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addGap(483, 483, 483)
-                        .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(jLabel13)
+                            .addComponent(jLabel14))
+                        .addGap(175, 175, 175))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jButton15)
+                        .addGap(81, 81, 81)))
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(jTextField2, javax.swing.GroupLayout.DEFAULT_SIZE, 447, Short.MAX_VALUE)
+                        .addComponent(jTextField1)))
                 .addContainerGap(326, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
@@ -311,9 +342,7 @@ public class FinalProject extends javax.swing.JFrame {
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel10)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(29, 29, 29)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel13)
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -628,7 +657,7 @@ public class FinalProject extends javax.swing.JFrame {
         jLabel5.setText("This Is Your Cart: Are You Ready To Checkout?");
 
         jButton5.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        jButton5.setText("Checkout");
+        jButton5.setText("Borrow");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -649,7 +678,7 @@ public class FinalProject extends javax.swing.JFrame {
         jScrollPane2.setViewportView(jTextArea2);
 
         jButton17.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
-        jButton17.setText("Keep Shopping");
+        jButton17.setText("Keep Borrowing");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton17ActionPerformed(evt);
@@ -705,7 +734,7 @@ public class FinalProject extends javax.swing.JFrame {
                 .addGap(35, 35, 35))
         );
 
-        main.addTab("Checkout", jPanel3);
+        main.addTab("Borrow", jPanel3);
 
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/thank you gif.gif"))); // NOI18N
 
@@ -735,6 +764,40 @@ public class FinalProject extends javax.swing.JFrame {
 
         main.addTab("Thank You", jPanel7);
 
+        jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
+        jTextArea1.setRows(5);
+        jScrollPane4.setViewportView(jTextArea1);
+
+        jLabel10.setFont(new java.awt.Font("Arial Black", 0, 36)); // NOI18N
+        jLabel10.setText("This is the log of every book that has been checked out.");
+
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addGap(165, 165, 165)
+                        .addComponent(jLabel10))
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addGap(24, 24, 24)
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 1376, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(152, Short.MAX_VALUE))
+        );
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addGap(28, 28, 28)
+                .addComponent(jLabel10)
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 593, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(19, Short.MAX_VALUE))
+        );
+
+        main.addTab("Librarian", jPanel9);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -753,69 +816,93 @@ public class FinalProject extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        playAudio("click.wav");
-        System.exit(0);
-    }//GEN-LAST:event_jButton4ActionPerformed
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        playAudio("checkout tab.wav");
+    }//GEN-LAST:event_jButton21ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
         playAudio("click.wav");
-        String username = txtUsername.getText();
-        String password = txtPassword.getText();
-        String login = username + " " + password;
-        Scanner lScanner;
-        try {
-            lScanner = new Scanner(new File("logins.txt"));
-            boolean loginFound = false;
-            while (lScanner.hasNextLine()) {
-                if (login.equals(lScanner.nextLine())) {
-                    loginFound = true;
-                    break;
-                }
-    }
-    lScanner.close();
-    if (loginFound) {
-        main.setEnabledAt(2, true);
-        main.setSelectedIndex(2);
-        main.setEnabledAt(0, false);
-    } else {
-        JOptionPane.showMessageDialog(this, "Incorrect Username or Password");
-    }
-} catch (FileNotFoundException e) {
-    e.printStackTrace(); // Handle or log the exception accordingly
-}
-    }//GEN-LAST:event_jButton1ActionPerformed
+        main.setSelectedIndex(3);
+    }//GEN-LAST:event_jButton17ActionPerformed
 
-    private void txtUsernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUsernameActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtUsernameActionPerformed
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        playAudio("click.wav");
+        jTextArea2.setText(null);
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        playAudio("vine-boom.wav");
+        
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd");
+        LocalDateTime now = LocalDateTime.now();
+
+        String filePath = "log.txt";
+        try (FileWriter fileWriter = new FileWriter(filePath, true)) {
+            if (jTextArea2 != null) {
+                fileWriter.write(activeUser + " has borrowed...\n" + jTextArea2.getText() + "on " + dtf.format(now) + "\n");
+            }
+        } catch (IOException e) {
+            System.out.println("An error occurred while writing to the file.");
+            e.printStackTrace();
+        }
+        
+        main.setEnabledAt(7, true);
+        main.setEnabledAt(6,false);
+        main.setEnabledAt(5,false);
+        main.setEnabledAt(4,false);
+        main.setEnabledAt(3,false);
+        main.setSelectedIndex(7);
+        
+        Scanner readFile = new Scanner(filePath);
+        while (readFile.hasNextLine()) {
+            jTextArea1.append(readFile.nextLine() + "\n");
+        }
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+        //        String text = searchArea.getText();
+        //        StringSelection stringSelection = new StringSelection(text);
+        //        Clipboard clpbrd = Toolkit.getDefaultToolkit().getSystemClipboard();
+        //        clpbrd.setContents(stringSelection, null);
+        //
+        //        // To retrieve the text back from clipboard
+        //        try {
+            //            jTextField4.setText((String) clpbrd.getData(DataFlavor.stringFlavor));
+            //        } catch (UnsupportedFlavorException | IOException ex) {
+            //            ex.printStackTrace();
+            //            jTextField4.setText("");
+            //        }
+    }//GEN-LAST:event_jButton25ActionPerformed
+
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+        playAudio("Addtocart.wav");
+    }//GEN-LAST:event_jButton20ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         playAudio("click.wav");
         try {
-        Scanner scanner = new Scanner(nameFile);
-        ArrayList<String> results = new ArrayList<String>();
-        StringBuilder output = new StringBuilder(); // To store the concatenated results
+            Scanner scanner = new Scanner(nameFile);
+            ArrayList<String> results = new ArrayList<String>();
+            StringBuilder output = new StringBuilder(); // To store the concatenated results
 
-        while (scanner.hasNext()) {
-            String line = scanner.nextLine();
-            if (line.contains(searchtxt.getText())) {
-                results.add(line);
+            while (scanner.hasNext()) {
+                String line = scanner.nextLine();
+                if (line.contains(searchtxt.getText())) {
+                    results.add(line);
+                }
             }
-        }
-    
-        for (String result : results) {
-            output.append(result).append("\n"); // Concatenate the results
-        }
 
-        searchArea.setText(output.toString()); // Set the concatenated results to the search area
+            for (String result : results) {
+                output.append(result).append("\n"); // Concatenate the results
+            }
 
-        scanner.close();
-        
+            searchArea.setText(output.toString()); // Set the concatenated results to the search area
+
+            scanner.close();
+
         } catch (FileNotFoundException ex) {
             java.util.logging.Logger.getLogger(FinalProject.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-            
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
@@ -831,68 +918,42 @@ public class FinalProject extends javax.swing.JFrame {
         if (jTextField4.getText().equals(null)) {
             JOptionPane.showMessageDialog(this, "Enter a book you want to add ");
         } else{
-            main.setEnabledAt(5, true);
-            main.setSelectedIndex(5);
+            main.setEnabledAt(6, true);
+            main.setSelectedIndex(6);
         }
         searchtxt.setText(null);
         jTextField4.setText(null);
         searchArea.setText(null);
     }//GEN-LAST:event_jButton3ActionPerformed
+
     private void searchtxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchtxtActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_searchtxtActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+        playAudio("catalog tab.wav");
+    }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        playAudio("click.wav");
+        main.setSelectedIndex(5);
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        playAudio("genre.wav");
+    }//GEN-LAST:event_jButton19ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         playAudio("click.wav");
         try {
             main.setEnabledAt(3, true);
             main.setEnabledAt(4, true);
             main.setSelectedIndex(3);
-            jLabel7.setText("Here is a list of books in the fiction genre");
-            jLabel8.setText("Librarian Recommendation: \"The Lovely Bones\" by Alice Sebold");
+            jLabel7.setText("Her is a list of books in the SciFi genre");
+            jLabel8.setText("Librarian recomendation: \"Aurora\" by Kim Stanley Robinson");
 
             // Read content from the file
-            this.nameFile = new File("Fiction.txt");
-            if (!nameFile.exists()) {
-                System.out.println("File not found.");
-                return;
-            }
-
-            Scanner readFile = new Scanner(nameFile);
-//            while (readFile.hasNextLine()) {
-//                String bookTitle = readFile.nextLine();
-//                jTextArea3.append(bookTitle + "\n"); // Add a new line after each book title read
-//            }
-            
-            HashTable<Integer, String> FictionIsbns = new HashTable<Integer, String>(200);
-            String[] tests = new String[200];
-            for (int i = 0; i < tests.length; i++) {
-                String isbn = readFile.nextLine();
-                tests[i] = isbn;
-                if (tests[i] != null) {
-                    FictionIsbns.hashInsert(i, tests[i]);
-                    jTextArea3.append(FictionIsbns.hashSearch(i) + "\n");  
-                }
-            }
-            
-            readFile.close(); // Close the scanner after reading
-
-        } catch (FileNotFoundException ex) {
-      
-        }
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-    playAudio("click.wav");
-        try {
-        main.setEnabledAt(3, true);
-        main.setEnabledAt(4, true);
-        main.setSelectedIndex(3);
-        jLabel7.setText("Here is a list of books in the fantasy genre");
-        jLabel8.setText("Librarian recomendation: \"The Liveship Traders Trilogy\" by Robin Hobb");
-
-            // Read content from the file
-            File nameFile = new File("Fantasy.txt");
+            File nameFile = new File("ScienceFiction.txt");
             if (!nameFile.exists()) {
                 System.out.println("File not found.");
                 return;
@@ -906,18 +967,102 @@ public class FinalProject extends javax.swing.JFrame {
             readFile.close(); // Close the scanner after reading
 
         } catch (FileNotFoundException ex) {
-            
+
         }
-    }//GEN-LAST:event_jButton8ActionPerformed
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        playAudio("click.wav");
+        try {
+            main.setEnabledAt(3, true);
+            main.setEnabledAt(4, true);
+            main.setSelectedIndex(3);
+            jLabel7.setText("Here is a list of books in the romance genre");
+            jLabel8.setText("Librarian recomendation: \"The Rosie Project\" by Graeme Simsion");
+
+            // Read content from the file
+            File nameFile = new File("Romance.txt");
+            if (!nameFile.exists()) {
+                System.out.println("File not found.");
+                return;
+            }
+
+            Scanner readFile = new Scanner(nameFile);
+            while (readFile.hasNextLine()) {
+                String bookTitle = readFile.nextLine();
+                jTextArea3.append(bookTitle + "\n"); // Add a new line after each book title read
+            }
+            readFile.close(); // Close the scanner after reading
+
+        } catch (FileNotFoundException ex) {
+
+        }
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        playAudio("click.wav");
+        try {
+            main.setEnabledAt(3, true);
+            main.setEnabledAt(4, true);
+            main.setSelectedIndex(3);
+            jLabel7.setText("Here is a list of books in the mystery genre");
+            jLabel8.setText("Librarian recomendation: The Woman in the Window\" by A.J. Finn");
+
+            // Read content from the file
+            File nameFile = new File("Mystery.txt");
+            if (!nameFile.exists()) {
+                System.out.println("File not found.");
+                return;
+            }
+
+            Scanner readFile = new Scanner(nameFile);
+            while (readFile.hasNextLine()) {
+                String bookTitle = readFile.nextLine();
+                jTextArea3.append(bookTitle + "\n"); // Add a new line after each book title read
+            }
+            readFile.close(); // Close the scanner after reading
+
+        } catch (FileNotFoundException ex) {
+
+        }
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        playAudio("click.wav");
+        try {
+            main.setEnabledAt(3, true);
+            main.setEnabledAt(4, true);
+            main.setSelectedIndex(3);
+            jLabel7.setText("Here is a list of books in the history genre");
+            jLabel8.setText("Librarian recomendation: \"The Holocaust: A History\" by Laurence Rees");
+
+            // Read content from the file
+            File nameFile = new File("History.txt");
+            if (!nameFile.exists()) {
+                System.out.println("File not found.");
+                return;
+            }
+
+            Scanner readFile = new Scanner(nameFile);
+            while (readFile.hasNextLine()) {
+                String bookTitle = readFile.nextLine();
+                jTextArea3.append(bookTitle + "\n"); // Add a new line after each book title read
+            }
+            readFile.close(); // Close the scanner after reading
+
+        } catch (FileNotFoundException ex) {
+
+        }
+    }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-    playAudio("click.wav");
+        playAudio("click.wav");
         try {
-       main.setEnabledAt(3, true);
-        main.setEnabledAt(4, true);
-        main.setSelectedIndex(3);
-        jLabel7.setText("Here is a list of books in the comedy genre");
-        jLabel8.setText("Librarian recomendation: \"The Importance of Being Earnest\" by Oscar Wilde");
+            main.setEnabledAt(3, true);
+            main.setEnabledAt(4, true);
+            main.setSelectedIndex(3);
+            jLabel7.setText("Here is a list of books in the comedy genre");
+            jLabel8.setText("Librarian recomendation: \"The Importance of Being Earnest\" by Oscar Wilde");
 
             // Read content from the file
             File nameFile = new File("Comedy.txt");
@@ -934,156 +1079,93 @@ public class FinalProject extends javax.swing.JFrame {
             readFile.close(); // Close the scanner after reading
 
         } catch (FileNotFoundException ex) {
-            
+
         }
     }//GEN-LAST:event_jButton9ActionPerformed
 
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-    playAudio("click.wav");
-        try {
-       main.setEnabledAt(3, true);
-        main.setEnabledAt(4, true);
-        main.setSelectedIndex(3);
-        jLabel7.setText("Here is a list of books in the mystery genre");
-        jLabel8.setText("Librarian recomendation: The Woman in the Window\" by A.J. Finn");
-                
-            // Read content from the file
-            File nameFile = new File("Mystery.txt");
-            if (!nameFile.exists()) {
-                System.out.println("File not found.");
-                return;
-            }
-
-            Scanner readFile = new Scanner(nameFile);
-            while (readFile.hasNextLine()) {
-                String bookTitle = readFile.nextLine();
-                jTextArea3.append(bookTitle + "\n"); // Add a new line after each book title read
-            }
-            readFile.close(); // Close the scanner after reading
-
-        } catch (FileNotFoundException ex) {
-            
-        }
-    }//GEN-LAST:event_jButton11ActionPerformed
-
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-   playAudio("click.wav");
-        try {
-        main.setEnabledAt(3, true);
-        main.setEnabledAt(4, true);
-        main.setSelectedIndex(3);
-        jLabel7.setText("Here is a list of books in the history genre");
-        jLabel8.setText("Librarian recomendation: \"The Holocaust: A History\" by Laurence Rees");
-                
-            // Read content from the file
-            File nameFile = new File("History.txt");
-            if (!nameFile.exists()) {
-                System.out.println("File not found.");
-                return;
-            }
-
-            Scanner readFile = new Scanner(nameFile);
-            while (readFile.hasNextLine()) {
-                String bookTitle = readFile.nextLine();
-                jTextArea3.append(bookTitle + "\n"); // Add a new line after each book title read
-            }
-            readFile.close(); // Close the scanner after reading
-
-        } catch (FileNotFoundException ex) {
-            
-        }
-    }//GEN-LAST:event_jButton10ActionPerformed
-
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-    playAudio("click.wav");
-        try {
-        main.setEnabledAt(3, true);
-        main.setEnabledAt(4, true);
-        main.setSelectedIndex(3);
-        jLabel7.setText("Her is a list of books in the SciFi genre");
-        jLabel8.setText("Librarian recomendation: \"Aurora\" by Kim Stanley Robinson");
-                
-            // Read content from the file
-            File nameFile = new File("ScienceFiction.txt");
-            if (!nameFile.exists()) {
-                System.out.println("File not found.");
-                return;
-            }
-
-            Scanner readFile = new Scanner(nameFile);
-            while (readFile.hasNextLine()) {
-                String bookTitle = readFile.nextLine();
-                jTextArea3.append(bookTitle + "\n"); // Add a new line after each book title read
-            }
-            readFile.close(); // Close the scanner after reading
-
-        } catch (FileNotFoundException ex) {
-            
-        }
-    }//GEN-LAST:event_jButton13ActionPerformed
-
-    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-    playAudio("click.wav");
-        try {
-        main.setEnabledAt(3, true);
-        main.setEnabledAt(4, true);
-        main.setSelectedIndex(3);
-        jLabel7.setText("Here is a list of books in the romance genre");
-        jLabel8.setText("Librarian recomendation: \"The Rosie Project\" by Graeme Simsion");
-                
-            // Read content from the file
-            File nameFile = new File("Romance.txt");
-            if (!nameFile.exists()) {
-                System.out.println("File not found.");
-                return;
-            }
-
-            Scanner readFile = new Scanner(nameFile);
-            while (readFile.hasNextLine()) {
-                String bookTitle = readFile.nextLine();
-                jTextArea3.append(bookTitle + "\n"); // Add a new line after each book title read
-            }
-            readFile.close(); // Close the scanner after reading
-
-        } catch (FileNotFoundException ex) {
-            
-        }
-    }//GEN-LAST:event_jButton12ActionPerformed
-
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
-       playAudio("click.wav");
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         playAudio("click.wav");
-        main.setEnabledAt(1, true);
-        main.setEnabledAt(0,false);
+        try {
+            main.setEnabledAt(3, true);
+            main.setEnabledAt(4, true);
+            main.setSelectedIndex(3);
+            jLabel7.setText("Here is a list of books in the fantasy genre");
+            jLabel8.setText("Librarian recomendation: \"The Liveship Traders Trilogy\" by Robin Hobb");
+
+            // Read content from the file
+            File nameFile = new File("Fantasy.txt");
+            if (!nameFile.exists()) {
+                System.out.println("File not found.");
+                return;
+            }
+
+            Scanner readFile = new Scanner(nameFile);
+            while (readFile.hasNextLine()) {
+                String bookTitle = readFile.nextLine();
+                jTextArea3.append(bookTitle + "\n"); // Add a new line after each book title read
+            }
+            readFile.close(); // Close the scanner after reading
+
+        } catch (FileNotFoundException ex) {
+
+        }
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        playAudio("click.wav");
+        try {
+            main.setEnabledAt(4, true);
+            main.setEnabledAt(5, true);
+            main.setSelectedIndex(4);
+            jLabel7.setText("Here is a list of books in the fiction genre");
+            jLabel8.setText("Librarian Recommendation: \"The Lovely Bones\" by Alice Sebold");
+
+            // Read content from the file
+            this.nameFile = new File("Fiction.txt");
+            if (!nameFile.exists()) {
+                System.out.println("File not found.");
+                return;
+            }
+
+            Scanner readFile = new Scanner(nameFile);
+            //            while (readFile.hasNextLine()) {
+                //                String bookTitle = readFile.nextLine();
+                //                jTextArea3.append(bookTitle + "\n"); // Add a new line after each book title read
+                //            }
+
+            HashTable<Integer, String> FictionIsbns = new HashTable<Integer, String>(200);
+            String[] tests = new String[200];
+            for (int i = 0; i < tests.length; i++) {
+                String isbn = readFile.nextLine();
+                tests[i] = isbn;
+                if (tests[i] != null) {
+                    FictionIsbns.hashInsert(i, tests[i]);
+                    jTextArea3.append(FictionIsbns.hashSearch(i) + "\n");
+                }
+            }
+
+            readFile.close(); // Close the scanner after reading
+
+        } catch (FileNotFoundException ex) {
+
+        }
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+        playAudio("Signup Page.wav");
+    }//GEN-LAST:event_jButton23ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        playAudio("click.wav");
         main.setSelectedIndex(1);
-    }//GEN-LAST:event_jButton14ActionPerformed
-
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-       playAudio("vine-boom.wav");
-        main.setEnabledAt(6, true);
-        main.setEnabledAt(5,false);
-        main.setEnabledAt(4,false);
-        main.setEnabledAt(3,false);
-        main.setEnabledAt(2,false);
-        main.setSelectedIndex(6);
-    }//GEN-LAST:event_jButton5ActionPerformed
-
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        playAudio("click.wav");
-        jTextArea2.setText(null);
-    }//GEN-LAST:event_jButton6ActionPerformed
+    }//GEN-LAST:event_jButton16ActionPerformed
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
         playAudio("click.wav");
-        if(jTextField1.getText().equals("")||jTextField2.getText().equals("")){
+        if (jTextField1.getText().equals("") || jTextField2.getText().equals("")) {
             JOptionPane.showMessageDialog(this, "Enter a valid Name or Password");
-        } else{
-            main.setEnabledAt(0, true);
-            main.setSelectedIndex(0);
-            main.setEnabledAt(1, false);
         }
-        
-        
+
         String filePath = "logins.txt";
         try (FileWriter fileWriter = new FileWriter(filePath, true)) {
             if (jTextField1 != null && jTextField2 != null) {
@@ -1094,67 +1176,71 @@ public class FinalProject extends javax.swing.JFrame {
             System.out.println("An error occurred while writing to the file.");
             e.printStackTrace();
         }
+        
+        main.setSelectedIndex(1);
     }//GEN-LAST:event_jButton15ActionPerformed
-
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
-        playAudio("click.wav");
-        main.setEnabledAt(1,false);
-        main.setEnabledAt(0, true);
-        main.setSelectedIndex(0);
-    }//GEN-LAST:event_jButton16ActionPerformed
 
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField2ActionPerformed
 
-    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         playAudio("click.wav");
-        main.setSelectedIndex(2);
-    }//GEN-LAST:event_jButton17ActionPerformed
-
-    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
-       playAudio("click.wav");
-        main.setSelectedIndex(4);
-    }//GEN-LAST:event_jButton18ActionPerformed
+        System.exit(0);
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     private void helpButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_helpButton1ActionPerformed
         playAudio("Login Page.wav");
     }//GEN-LAST:event_helpButton1ActionPerformed
 
-    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
-        playAudio("genre.wav");
-    }//GEN-LAST:event_jButton19ActionPerformed
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        playAudio("click.wav");
+        playAudio("click.wav");
+        main.setSelectedIndex(2);
+    }//GEN-LAST:event_jButton14ActionPerformed
 
-    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
-        playAudio("Signup Page.wav");
-    }//GEN-LAST:event_jButton23ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        playAudio("click.wav");
+        String username = txtUsername.getText();
+        String password = txtPassword.getText();
+        String login = username + " " + password;
+        activeUser = username;
+        Scanner lScanner;
+        try {
+            lScanner = new Scanner(new File("logins.txt"));
+            boolean loginFound = false;
+            while (lScanner.hasNextLine()) {
+                if (login.equals(lScanner.nextLine())) {
+                    loginFound = true;
+                    break;
+                }
+            }
+            lScanner.close();
+            if (loginFound) {
+                if (login.equals("librarian 123")) {
+                    main.setEnabledAt(8, true);
+                    this.nameFile = new File("log.txt");
+                    Scanner readFile = new Scanner(nameFile);
+                    while (readFile.hasNextLine()) {
+                        jTextArea1.append(readFile.nextLine() + "\n");
+                    }
+                }
+                main.setEnabledAt(3, true);
+                main.setSelectedIndex(3);
+                main.setEnabledAt(0, false);
+                main.setEnabledAt(1, false);
+                main.setEnabledAt(2, false);
+            } else {
+                JOptionPane.showMessageDialog(this, "Incorrect Username or Password");
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace(); // Handle or log the exception accordingly
+        }
+    }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
-        playAudio("catalog tab.wav");
-    }//GEN-LAST:event_jButton22ActionPerformed
-
-    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
-        playAudio("Addtocart.wav");
-    }//GEN-LAST:event_jButton20ActionPerformed
-
-    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
-        playAudio("checkout tab.wav");
-    }//GEN-LAST:event_jButton21ActionPerformed
-
-    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
-//        String text = searchArea.getText();
-//        StringSelection stringSelection = new StringSelection(text);
-//        Clipboard clpbrd = Toolkit.getDefaultToolkit().getSystemClipboard();
-//        clpbrd.setContents(stringSelection, null);
-//
-//        // To retrieve the text back from clipboard
-//        try {
-//            jTextField4.setText((String) clpbrd.getData(DataFlavor.stringFlavor));
-//        } catch (UnsupportedFlavorException | IOException ex) {
-//            ex.printStackTrace();
-//            jTextField4.setText("");
-//        }
-    }//GEN-LAST:event_jButton25ActionPerformed
+    private void txtUsernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUsernameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtUsernameActionPerformed
     private void playAudio(String filename) {
         try {
             File file = new File(filename);
@@ -1238,6 +1324,7 @@ public class FinalProject extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -1253,9 +1340,13 @@ public class FinalProject extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextField jTextField1;
